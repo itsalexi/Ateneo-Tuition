@@ -6,10 +6,12 @@ import CourseInformation from '@/components/CourseInformation';
 import TuitionForecast from '@/components/TuitionForecast';
 import CourseSelector from '@/components/CourseSelector';
 import Credits from '@/components/Credits';
+import { Provider } from 'react-redux';
+import store from '@/redux/store';
 
 export default function Home() {
     return (
-        <>
+        <Provider store={store}>
             <Header></Header>
             <main className="main">
                 <div className="main-row">
@@ -24,6 +26,6 @@ export default function Home() {
                     </div>
                 </div>
             </main>
-        </>
+        </Provider>
     );
 }

@@ -1,20 +1,20 @@
 'use client';
 
-import { useDispatch, useSelector } from 'react-redux';
+import { Provider, useSelector } from 'react-redux';
 import { YearEditor } from '@/components/YearEditor';
-import { addYear, toggleFifthYear } from '@/redux/yearsSlice';
 import '@fontsource/inter';
 import { YearViewer } from '@/components/YearViewer';
 import OtherInformation from '@/components/OtherInformation';
 import TuitionForecast from '@/components/TuitionForecast';
 import Header from '@/components/Header';
 import Credits from '@/components/Credits';
+import store from '@/redux/store';
 
 export default function Calculator() {
     const years = useSelector((state) => state.years.years);
 
     return (
-        <>
+        <Provider store={store}>
             <Header></Header>
 
             <main className="main">
@@ -44,6 +44,6 @@ export default function Calculator() {
                     </div>
                 </div>
             </main>
-        </>
+        </Provider>
     );
 }
