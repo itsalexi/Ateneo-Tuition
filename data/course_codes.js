@@ -1,0 +1,1459 @@
+export const courses = {
+    'AB AM_2024_1':
+        '(AB AM) BACHELOR OF ARTS IN ART MANAGEMENT(Ver Sem 1, Ver Year 2024)',
+    'AB ChnS-B_2020_1':
+        '(AB ChnS-B) BACHELOR OF ARTS IN CHINESE STUDIES(Ver Sem 1, Ver Year 2020)',
+    'AB ChnS_2024_1':
+        '(AB ChnS) BACHELOR OF ARTS IN CHINESE STUDIES(Ver Sem 1, Ver Year 2024)',
+    'AB COM_2024_1':
+        '(AB COM) BACHELOR OF ARTS IN COMMUNICATION(Ver Sem 1, Ver Year 2024)',
+    'AB DS_2024_1':
+        '(AB DS) BACHELOR OF ARTS IN DEVELOPMENT STUDIES(Ver Sem 1, Ver Year 2024)',
+    'AB Dip IR_2024_1':
+        '(AB Dip IR) BACHELOR OF ARTS IN DIPLOMACY AND INTERNATIONAL RELATIONS WITH SPECIALIZATION IN EAST AND SOUTHEAST ASIAN STUDIES(Ver Sem 1, Ver Year 2024)',
+    'AB EC_2024_1':
+        '(AB EC) BACHELOR OF ARTS IN ECONOMICS(Ver Sem 1, Ver Year 2024)',
+    'AB EC-H_2024_1':
+        '(AB EC-H) BACHELOR OF ARTS IN ECONOMICS (HONORS PROGRAM)(Ver Sem 1, Ver Year 2024)',
+    'AB EU_2024_1':
+        '(AB EU) BACHELOR OF ARTS IN EUROPEAN STUDIES(Ver Sem 1, Ver Year 24BE)',
+    'AB HI_2024_1':
+        '(AB HI) BACHELOR OF ARTS IN HISTORY(Ver Sem 1, Ver Year 2024)',
+    'AB HUM_2024_1':
+        '(AB HUM) BACHELOR OF ARTS IN HUMANITIES(Ver Sem 1, Ver Year 2024)',
+    'AB IS_2024_1':
+        '(AB IS) BACHELOR OF ARTS IN INTERDISCIPLINARY STUDIES(Ver Sem 1, Ver Year 2024)',
+    'AB LIT(ENG)_2024_1':
+        '(AB LIT(ENG)) BACHELOR OF ARTS IN LITERATURE (ENGLISH)(Ver Sem 1, Ver Year 24TB)',
+    'AB MEC_2024_1':
+        '(AB MEC) BACHELOR OF ARTS IN MANAGEMENT ECONOMICS(Ver Sem 1, Ver Year 2024)',
+    'AB PH_2024_1':
+        '(AB PH) BACHELOR OF ARTS IN PHILOSOPHY(Ver Sem 1, Ver Year 2024)',
+    'AB PH (PRE-DIV)_2006_1':
+        '(AB PH (PRE-DIV)) BACHELOR OF ARTS IN PHILOSOPHY(Ver Sem 1, Ver Year 2006)',
+    'AB MA-POS_2020_1':
+        '(AB MA-POS) BACHELOR OF ARTS IN POLITICAL SCIENCE(Ver Sem 1, Ver Year 2020)',
+    'AB POS_2024_1':
+        '(AB POS) BACHELOR OF ARTS IN POLITICAL SCIENCE(Ver Sem 1, Ver Year 2024)',
+    'AB PSY_2024_1':
+        '(AB PSY) BACHELOR OF ARTS IN PSYCHOLOGY(Ver Sem 1, Ver Year 2024)',
+    'AB SOS_2002_1':
+        '(AB SOS) BACHELOR OF ARTS IN SOCIAL SCIENCES(Ver Sem 1, Ver Year 2002)',
+    'AB SOCIO_2024_1':
+        '(AB SOCIO) BACHELOR OF ARTS IN SOCIOLOGY(Ver Sem 1, Ver Year 2024)',
+    'BFA AM_2014_1':
+        '(BFA AM) BACHELOR OF FINE ARTS IN ART MANAGEMENT(Ver Sem 1, Ver Year 2014)',
+    'BFA CW_2024_1':
+        '(BFA CW) BACHELOR OF FINE ARTS IN CREATIVE WRITING(Ver Sem 1, Ver Year 2024)',
+    'BFA ID_2024_1':
+        '(BFA ID) BACHELOR OF FINE ARTS IN INFORMATION DESIGN(Ver Sem 1, Ver Year 2024)',
+    'BFA TA_2024_1':
+        '(BFA TA) BACHELOR OF FINE ARTS IN THEATER ARTS(Ver Sem 1, Ver Year 2024)',
+    'BS AMDSc-M DSc_2024_1':
+        '(BS AMDSc-M DSc) BACHELOR OF SCIENCE IN APPLIED MATHEMATICS(Ver Sem 1, Ver Year 2024)',
+    'BSM AMF_2024_1':
+        '(BSM AMF) BACHELOR OF SCIENCE IN APPLIED MATHEMATICS WITH SPECIALIZATION IN MATHEMATICAL FINANCE(Ver Sem 1, Ver Year 2024)',
+    'BS APS-MSE_2024_1':
+        '(BS APS-MSE) BACHELOR OF SCIENCE IN APPLIED PHYSICS - BACHELOR OF SCIENCE IN MATERIALS SCIENCE AND ENGINEERING(Ver Sem 1, Ver Year 2024)',
+    'BS BIO_2024_1':
+        '(BS BIO) BACHELOR OF SCIENCE IN BIOLOGY(Ver Sem 1, Ver Year 2024)',
+    'BSMS CH_2020_1':
+        '(BSMS CH) BACHELOR OF SCIENCE IN CHEMISTRY(Ver Sem 1, Ver Year 2020)',
+    'BS CH_2024_1':
+        '(BS CH) BACHELOR OF SCIENCE IN CHEMISTRY(Ver Sem 1, Ver Year 2024)',
+    'BS CH-MSE_2024_1':
+        '(BS CH-MSE) BACHELOR OF SCIENCE IN CHEMISTRY - BACHELOR OF SCIENCE IN MATERIALS SCIENCE AND ENGINEERING(Ver Sem 1, Ver Year 2024)',
+    'BS COMTECH_2024_1':
+        '(BS COMTECH) BACHELOR OF SCIENCE IN COMMUNICATIONS TECHNOLOGY MANAGEMENT(Ver Sem 1, Ver Year 2024)',
+    'BS CoE_2007_1':
+        '(BS CoE) BACHELOR OF SCIENCE IN COMPUTER ENGINEERING(Ver Sem 1, Ver Year 2007)',
+    'BS CpE_2024_1':
+        '(BS CpE) BACHELOR OF SCIENCE IN COMPUTER ENGINEERING(Ver Sem 1, Ver Year 2024)',
+    'BSMS CS_2020_1':
+        '(BSMS CS) BACHELOR OF SCIENCE IN COMPUTER SCIENCE(Ver Sem 1, Ver Year 2020)',
+    'BS CS_2024_1':
+        '(BS CS) BACHELOR OF SCIENCE IN COMPUTER SCIENCE(Ver Sem 1, Ver Year 2024)',
+    'BS CS-DGDD_2024_1':
+        '(BS CS-DGDD) BACHELOR OF SCIENCE IN COMPUTER SCIENCE - BACHELOR OF SCIENCE IN DIGITAL GAME DESIGN AND DEVELOPMENT(Ver Sem 1, Ver Year 2024)',
+    'BS EcE_2024_1':
+        '(BS EcE) BACHELOR OF SCIENCE IN ELECTRONICS ENGINEERING(Ver Sem 1, Ver Year 2024)',
+    'BS ES_2024_1':
+        '(BS ES) BACHELOR OF SCIENCE IN ENVIRONMENTAL SCIENCE(Ver Sem 1, Ver Year 2024)',
+    'BS HS_2024_1':
+        '(BS HS) BACHELOR OF SCIENCE IN HEALTH SCIENCES(Ver Sem 1, Ver Year 2024)',
+    'BS ITE_2024_1':
+        '(BS ITE) BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY ENTREPRENEURSHIP(Ver Sem 1, Ver Year 2024)',
+    'BS LEARN_2024_1':
+        '(BS LEARN) BACHELOR OF SCIENCE IN LEARNING SCIENCE AND DESIGN(Ver Sem 1, Ver Year 2024)',
+    'BS LM_2024_1':
+        '(BS LM) BACHELOR OF SCIENCE IN LEGAL MANAGEMENT(Ver Sem 1, Ver Year 2024)',
+    'BS LfSci_2024_1':
+        '(BS LfSci) BACHELOR OF SCIENCE IN LIFE SCIENCES(Ver Sem 1, Ver Year 2024)',
+    'BS MGT_2024_1':
+        '(BS MGT) BACHELOR OF SCIENCE IN MANAGEMENT(Ver Sem 1, Ver Year 2024)',
+    'BS MGT-H_2024_1':
+        '(BS MGT-H) BACHELOR OF SCIENCE IN MANAGEMENT (HONORS PROGRAM)(Ver Sem 1, Ver Year 2024)',
+    'BS ME_2024_1':
+        '(BS ME) BACHELOR OF SCIENCE IN MANAGEMENT ENGINEERING(Ver Sem 1, Ver Year 2024)',
+    'BSMIS-MSCS_2020_1':
+        '(BSMIS-MSCS) BACHELOR OF SCIENCE IN MANAGEMENT INFORMATION SYSTEMS(Ver Sem 1, Ver Year 2020)',
+    'BS MIS_2024_1':
+        '(BS MIS) BACHELOR OF SCIENCE IN MANAGEMENT INFORMATION SYSTEMS(Ver Sem 1, Ver Year 2024)',
+    'BS MAC_2024_1':
+        '(BS MAC) BACHELOR OF SCIENCE IN MANAGEMENT OF APPLIED CHEMISTRY(Ver Sem 1, Ver Year 2024)',
+    'BS MA_2024_1':
+        '(BS MA) BACHELOR OF SCIENCE IN MATHEMATICS(Ver Sem 1, Ver Year 2024)',
+    'BS-PS_2011_1':
+        '(BS-PS) BACHELOR OF SCIENCE IN PHYSICS(Ver Sem 1, Ver Year 2011)',
+    'BS PS_2024_1':
+        '(BS PS) BACHELOR OF SCIENCE IN PHYSICS(Ver Sem 1, Ver Year 2024)',
+    'BS PSY_2024_1':
+        '(BS PSY) BACHELOR OF SCIENCE IN PSYCHOLOGY(Ver Sem 1, Ver Year 2024)',
+    'MA BET_2019_1':
+        '(MA BET) MASTER OF ARTS IN BASIC EDUCATION TEACHING(Ver Sem 1, Ver Year 2019)',
+    'MA Comm_2019_1':
+        '(MA Comm) MASTER OF ARTS IN COMMUNICATION(Ver Sem 1, Ver Year 2019)',
+    'MA PSY-CPsych_2019_1':
+        '(MA PSY-CPsych) MASTER OF ARTS IN COUNSELING PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+    'MA PSY-DevPsych_2019_1':
+        '(MA PSY-DevPsych) MASTER OF ARTS IN DEVELOPMENTAL PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+    'MA Eco_2019_1':
+        '(MA Eco) MASTER OF ARTS IN ECONOMICS(Ver Sem 1, Ver Year 2019)',
+    'MA ED-BET-I_2014_0':
+        '(MA ED-BET-I) MASTER OF ARTS IN EDUCATION, MAJOR IN BASIC EDUCATION TEACHING (OPTION 1: THESIS)(Ver Sem 0, Ver Year 2014)',
+    'MA ED-BET-I-CPA_2021_0':
+        '(MA ED-BET-I-CPA) MASTER OF ARTS IN EDUCATION, MAJOR IN BASIC EDUCATION TEACHING (OPTION 1: THESIS)(Ver Sem 0, Ver Year 2021)',
+    'MAED-BET-II-CPA_2021_0':
+        '(MAED-BET-II-CPA) MASTER OF ARTS IN EDUCATION, MAJOR IN BASIC EDUCATION TEACHING (OPTION 2: NON-THESIS)(Ver Sem 0, Ver Year 2021)',
+    'MA ED-EA-EML_2021_0':
+        '(MA ED-EA-EML) MASTER OF ARTS IN EDUCATION, MAJOR IN EDUCATIONAL ADMINISTRATION(Ver Sem 0, Ver Year 2021)',
+    'MA ED-EA_2019_1':
+        '(MA ED-EA) MASTER OF ARTS IN EDUCATION, MAJOR IN EDUCATIONAL ADMINISTRATION(Ver Sem 1, Ver Year 2019)',
+    'MA ED-GC-CPA_2021_0':
+        '(MA ED-GC-CPA) MASTER OF ARTS IN EDUCATION, MAJOR IN GUIDANCE AND COUNSELING(Ver Sem 0, Ver Year 2021)',
+    'MA ED-GC_2019_1':
+        '(MA ED-GC) MASTER OF ARTS IN EDUCATION, MAJOR IN GUIDANCE AND COUNSELING(Ver Sem 1, Ver Year 2019)',
+    'MA ED-ITI-CPA_2021_1':
+        '(MA ED-ITI-CPA) MASTER OF ARTS IN EDUCATION, MAJOR IN INFORMATION TECHNOLOGY INTEGRATION(Ver Sem 1, Ver Year 2021)',
+    'MA ED-ITI_2019_1':
+        '(MA ED-ITI) MASTER OF ARTS IN EDUCATION, MAJOR IN INFORMATION TECHNOLOGY INTEGRATION(Ver Sem 1, Ver Year 2019)',
+    'MA ED-RE-CPA_2021_0':
+        '(MA ED-RE-CPA) MASTER OF ARTS IN EDUCATION, MAJOR IN READING EDUCATION(Ver Sem 0, Ver Year 2021)',
+    'MA EdAd_2019_1':
+        '(MA EdAd) MASTER OF ARTS IN EDUCATIONAL ADMINISTRATION(Ver Sem 1, Ver Year 2019)',
+    'MA EdAd-EML_2021_0':
+        '(MA EdAd-EML) MASTER OF ARTS IN EDUCATIONAL ADMINISTRATION(Ver Sem 0, Ver Year 2021)',
+    'MA EngLLT_2019_1':
+        '(MA EngLLT) MASTER OF ARTS IN ENGLISH LANGUAGE AND LITERATURE TEACHING(Ver Sem 1, Ver Year 2019)',
+    'MA EU_2017_1':
+        '(MA EU) MASTER OF ARTS IN EUROPEAN STUDIES - COMPARATIVE REGIONAL RELATIONS OF ASIA AND EUROPE (THESIS TRACK)(Ver Sem 1, Ver Year 2017)',
+    'MA EURO_2019_1':
+        '(MA EURO) MASTER OF ARTS IN EUROPEAN STUDIES MAJOR IN COMPARATIVE REGIONAL RELATIONS OF ASIA AND EUROPE(Ver Sem 1, Ver Year 2019)',
+    'MA GC_2019_1':
+        '(MA GC) MASTER OF ARTS IN GUIDANCE AND COUNSELING(Ver Sem 1, Ver Year 2019)',
+    'MA GC-CPA_2021_0':
+        '(MA GC-CPA) MASTER OF ARTS IN GUIDANCE AND COUNSELING(Ver Sem 0, Ver Year 2021)',
+    'MA Hist_2019_1':
+        '(MA Hist) MASTER OF ARTS IN HISTORY(Ver Sem 1, Ver Year 2019)',
+    'MA JapS_2019_1':
+        '(MA JapS) MASTER OF ARTS IN JAPANESE STUDIES(Ver Sem 1, Ver Year 2019)',
+    'MA LitCS_2019_1':
+        '(MA LitCS) MASTER OF ARTS IN LITERARY AND CULTURAL STUDIES(Ver Sem 1, Ver Year 2019)',
+    'MA LIT-FIL-II_2019_1':
+        '(MA LIT-FIL-II) MASTER OF ARTS IN LITERATURE (FILIPINO) - NON-THESIS OPTION(Ver Sem 1, Ver Year 2019)',
+    'MA LIT-FIL-STRA_2019_1':
+        '(MA LIT-FIL-STRA) MASTER OF ARTS IN LITERATURE (FILIPINO) - STRAIGHT PROGRAM(Ver Sem 1, Ver Year 2019)',
+    'MA LIT-FIL-I_2001_0':
+        '(MA LIT-FIL-I) MASTER OF ARTS IN LITERATURE (FILIPINO) - THESIS OPTION(Ver Sem 0, Ver Year 2001)',
+    'MA LIT-FIL-CW_2019_1':
+        '(MA LIT-FIL-CW) MASTER OF ARTS IN LITERATURE (FILIPINO), MAJOR IN CREATIVE WRITING(Ver Sem 1, Ver Year 2019)',
+    'MA LIT-FIL-TL_2019_1':
+        '(MA LIT-FIL-TL) MASTER OF ARTS IN LITERATURE (FILIPINO), MAJOR IN TEACHING LITERATURE(Ver Sem 1, Ver Year 2019)',
+    'MA OrgPsych_2019_1':
+        '(MA OrgPsych) MASTER OF ARTS IN ORGANIZATIONAL PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+    'MA Philo_2019_1':
+        '(MA Philo) MASTER OF ARTS IN PHILOSOPHY (Ver Sem 1, Ver Year 2019)',
+    'MA PolSc-GP-SP_2019_2':
+        '(MA PolSc-GP-SP) MASTER OF ARTS IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS(Ver Sem 2, Ver Year 2019)',
+    'MA PolSc-GP_2019_2':
+        '(MA PolSc-GP) MASTER OF ARTS IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS(Ver Sem 2, Ver Year 2019)',
+    'MA POS-GP-II-SP_2004_0':
+        '(MA POS-GP-II-SP) MASTER OF ARTS IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS (NON-THESIS TRACK)(Ver Sem 0, Ver Year 2004)',
+    'MA POS-GP-II_2010_0':
+        '(MA POS-GP-II) MASTER OF ARTS IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS (NON-THESIS TRACK)(Ver Sem 0, Ver Year 2010)',
+    'MA POS-GP-I_2004_0':
+        '(MA POS-GP-I) MASTER OF ARTS IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS (THESIS TRACK)(Ver Sem 0, Ver Year 2004)',
+    'MA POS-GP-I-SP_2004_0':
+        '(MA POS-GP-I-SP) MASTER OF ARTS IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS (THESIS TRACK)(Ver Sem 0, Ver Year 2004)',
+    'MA PSY-IOP-II-S_2014_0':
+        '(MA PSY-IOP-II-S) MASTER OF ARTS IN PSYCHOLOGY WITH CONCENTRATION IN INDUSTRIAL-ORGANIZATIONAL PSYCHOLOGY: STRATEGIC HUMAN RESOURCE MANAGEMENT TRACK (NON-THESIS)(Ver Sem 0, Ver Year 2014)',
+    'MA PSY-IOP-II_2004_0':
+        '(MA PSY-IOP-II) MASTER OF ARTS IN PSYCHOLOGY, CONCENTRATION IN INDUSTRIAL-ORGANIZATIONAL PSYCHOLOGY(NON-THESIS PROGRAM)(Ver Sem 0, Ver Year 2004)',
+    'MA REd_2019_1':
+        '(MA REd) MASTER OF ARTS IN READING EDUCATION(Ver Sem 1, Ver Year 2019)',
+    'MA REd-CPA_2021_0':
+        '(MA REd-CPA) MASTER OF ARTS IN READING EDUCATION(Ver Sem 0, Ver Year 2021)',
+    'MA Rel-Ed_2019_1':
+        '(MA Rel-Ed) MASTER OF ARTS IN RELIGIOUS EDUCATION(Ver Sem 1, Ver Year 2019)',
+    'MA SocPsych_2019_1':
+        '(MA SocPsych) MASTER OF ARTS IN SOCIAL PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+    'MA Socio_2019_1':
+        '(MA Socio) MASTER OF ARTS IN SOCIOLOGY(Ver Sem 1, Ver Year 2019)',
+    'MA ThStud_2019_1':
+        '(MA ThStud) MASTER OF ARTS IN THEOLOGICAL STUDIES(Ver Sem 1, Ver Year 2019)',
+    'MA ANTHRO_1987_0':
+        '(MA ANTHRO) MASTER OF ARTS, MAJOR IN ANTHROPOLOGY(Ver Sem 0, Ver Year 1987)',
+    'MA COM-II_2007_1':
+        '(MA COM-II) MASTER OF ARTS, MAJOR IN COMMUNICATION (NON-THESIS OPTION)(Ver Sem 1, Ver Year 2007)',
+    'MA COM-I_2019_1':
+        '(MA COM-I) MASTER OF ARTS, MAJOR IN COMMUNICATION (THESIS OPTION)(Ver Sem 1, Ver Year 2019)',
+    'MA EC-I_2001_0':
+        '(MA EC-I) MASTER OF ARTS, MAJOR IN ECONOMICS (OPTION I: THESIS)(Ver Sem 0, Ver Year 2001)',
+    'MA EC-II_2001_0':
+        '(MA EC-II) MASTER OF ARTS, MAJOR IN ECONOMICS (OPTION II: NO-THESIS)(Ver Sem 0, Ver Year 2001)',
+    'MA ELLT-I_2006_0':
+        '(MA ELLT-I) MASTER OF ARTS, MAJOR IN ENGLISH LANGUAGE AND LITERATURE TEACHING (OPTION 1 - THESIS)(Ver Sem 0, Ver Year 2006)',
+    'MA ELLT-II_2006_0':
+        '(MA ELLT-II) MASTER OF ARTS, MAJOR IN ENGLISH LANGUAGE AND LITERATURE TEACHING (OPTION 2 - NON-THESIS)(Ver Sem 0, Ver Year 2006)',
+    'MA HI-I_1997_0':
+        '(MA HI-I) MASTER OF ARTS, MAJOR IN HISTORY (OPTION 1: THESIS)(Ver Sem 0, Ver Year 1997)',
+    'MA HI-II_2004_0':
+        '(MA HI-II) MASTER OF ARTS, MAJOR IN HISTORY (OPTION 2: NON-THESIS)(Ver Sem 0, Ver Year 2004)',
+    'MA JS_1998_0':
+        '(MA JS) MASTER OF ARTS, MAJOR IN JAPANESE STUDIES(Ver Sem 0, Ver Year 1998)',
+    'MA JOURN_2016_1':
+        '(MA JOURN) MASTER OF ARTS, MAJOR IN JOURNALISM(Ver Sem 1, Ver Year 2016)',
+    'MA LCS_2006_0':
+        '(MA LCS) MASTER OF ARTS, MAJOR IN LITERARY AND CULTURAL STUDIES(Ver Sem 0, Ver Year 2006)',
+    'MA PAM_2019_1':
+        '(MA PAM) MASTER OF ARTS, MAJOR IN PASTORAL MINISTRY (NON-THESIS)(Ver Sem 1, Ver Year 2019)',
+    'MA PAM-FMC_2019_1':
+        '(MA PAM-FMC) MASTER OF ARTS, MAJOR IN PASTORAL MINISTRY: FAMILY MINISTRY AND COUNSELING (NON-THESIS)(Ver Sem 1, Ver Year 2019)',
+    'MA PAM-PM_2019_1':
+        '(MA PAM-PM) MASTER OF ARTS, MAJOR IN PASTORAL MINISTRY: PASTORAL MANAGEMENT (NON-THESIS)(Ver Sem 1, Ver Year 2019)',
+    'MA PAM-SRD_2004_0':
+        '(MA PAM-SRD) MASTER OF ARTS, MAJOR IN PASTORAL MINISTRY: SPIRITUALITY AND RETREAT DIRECTING (NON-THESIS)(Ver Sem 0, Ver Year 2004)',
+    'MA PAS_1998_0':
+        '(MA PAS) MASTER OF ARTS, MAJOR IN PASTORAL STUDIES(Ver Sem 0, Ver Year 1998)',
+    'MA PH_1992_0':
+        '(MA PH) MASTER OF ARTS, MAJOR IN PHILOSOPHY(Ver Sem 0, Ver Year 1992)',
+    'MA PH-I_1994_0':
+        '(MA PH-I) MASTER OF ARTS, MAJOR IN PHILOSOPHY (OPTION I: THESIS)(Ver Sem 0, Ver Year 1994)',
+    'MA PH-II_1994_0':
+        '(MA PH-II) MASTER OF ARTS, MAJOR IN PHILOSOPHY (OPTION II: NO-THESIS)(Ver Sem 0, Ver Year 1994)',
+    'MA POS_1996_0':
+        '(MA POS) MASTER OF ARTS, MAJOR IN POLITICAL SCIENCE(Ver Sem 0, Ver Year 1996)',
+    'MA REL-ED-FIRE_2010_0':
+        '(MA REL-ED-FIRE) MASTER OF ARTS, MAJOR IN RELIGIOUS EDUCATION (NON-THESIS)(Ver Sem 0, Ver Year 2010)',
+    'MA REL-ED_2004_0':
+        '(MA REL-ED) MASTER OF ARTS, MAJOR IN RELIGIOUS EDUCATION (NON-THESIS)(Ver Sem 0, Ver Year 2004)',
+    'MA SOC_1987_0':
+        '(MA SOC) MASTER OF ARTS, MAJOR IN SOCIOLOGY(Ver Sem 0, Ver Year 1987)',
+    'MA TPH_1997_0':
+        '(MA TPH) MASTER OF ARTS, MAJOR IN TEACHING PHILOSOPHY (NON-THESIS)(Ver Sem 0, Ver Year 1997)',
+    'MA TH-STUD_2019_1':
+        '(MA TH-STUD) MASTER OF ARTS, MAJOR IN THEOLOGICAL STUDIES(Ver Sem 1, Ver Year 2019)',
+    'MA TH-STUD-FIRE_2011_0':
+        '(MA TH-STUD-FIRE) MASTER OF ARTS, MAJOR IN THEOLOGICAL STUDIES (FIRE)(Ver Sem 0, Ver Year 2011)',
+    'M BIO_2013_1': '(M BIO) MASTER OF BIOLOGY(Ver Sem 1, Ver Year 2013)',
+    'M CHEM_2019_1': '(M CHEM) MASTER OF CHEMISTRY(Ver Sem 1, Ver Year 2019)',
+    MDRR_2018_1:
+        '(MDRR) MASTER OF DISASTER RISK AND RESILIENCE(Ver Sem 1, Ver Year 2018)',
+    'M PS_2004_0': '(M PS) MASTER OF PHYSICS(Ver Sem 0, Ver Year 2004)',
+    MPSED_2001_0:
+        '(MPSED) MASTER OF PHYSICS EDUCATION(Ver Sem 0, Ver Year 2001)',
+    'MS AS_2019_1':
+        '(MS AS) MASTER OF SCIENCE IN ATMOSPHERIC SCIENCE(Ver Sem 1, Ver Year 2019)',
+    'MS BIO_2019_1':
+        '(MS BIO) MASTER OF SCIENCE IN BIOLOGY(Ver Sem 1, Ver Year 2019)',
+    'MS CH_2019_1':
+        '(MS CH) MASTER OF SCIENCE IN CHEMISTRY(Ver Sem 1, Ver Year 2019)',
+    'MS CH-STRAIGHT_2002_0':
+        '(MS CH-STRAIGHT) MASTER OF SCIENCE IN CHEMISTRY (STRAIGHT PROGRAM)(Ver Sem 0, Ver Year 2002)',
+    'MS ChemEd_2019_1':
+        '(MS ChemEd) MASTER OF SCIENCE IN CHEMISTRY EDUCATION(Ver Sem 1, Ver Year 2019)',
+    'MS CH-ED_2019_1':
+        '(MS CH-ED) MASTER OF SCIENCE IN CHEMISTRY EDUCATION(Ver Sem 1, Ver Year 2019)',
+    'MS CS_2019_1':
+        '(MS CS) MASTER OF SCIENCE IN COMPUTER SCIENCE(Ver Sem 1, Ver Year 2019)',
+    'MS CS-STRAIGHT_2019_1':
+        '(MS CS-STRAIGHT) MASTER OF SCIENCE IN COMPUTER SCIENCE (STRAIGHT PROGRAM)(Ver Sem 1, Ver Year 2019)',
+    'MS DS_2019_1':
+        '(MS DS) MASTER OF SCIENCE IN DATA SCIENCE(Ver Sem 1, Ver Year 2019)',
+    'MS ECE_2019_1':
+        '(MS ECE) MASTER OF SCIENCE IN ELECTRONICS ENGINEERING(Ver Sem 1, Ver Year 2019)',
+    'MS ES_2019_1':
+        '(MS ES) MASTER OF SCIENCE IN ENVIRONMENTAL SCIENCE(Ver Sem 1, Ver Year 2019)',
+    'MS IMAT_2019_1':
+        '(MS IMAT) MASTER OF SCIENCE IN INNOVATION THROUGH MEDIA ARTS TECHNOLOGY(Ver Sem 1, Ver Year 2019)',
+    MSM_2019_1:
+        '(MSM) MASTER OF SCIENCE IN MANAGEMENT(Ver Sem 1, Ver Year 2019)',
+    'MS MA_2019_1':
+        '(MS MA) MASTER OF SCIENCE IN MATHEMATICS(Ver Sem 1, Ver Year 2019)',
+    'MS Math-Ed_2019_1':
+        '(MS Math-Ed) MASTER OF SCIENCE IN MATHEMATICS EDUCATION(Ver Sem 1, Ver Year 2019)',
+    'MS PS_2019_1':
+        '(MS PS) MASTER OF SCIENCE IN PHYSICS(Ver Sem 1, Ver Year 2019)',
+    'MS SciEd_2019_1':
+        '(MS SciEd) MASTER OF SCIENCE IN SCIENCE EDUCATION(Ver Sem 1, Ver Year 2019)',
+    'MSSE BIO_2004_1':
+        '(MSSE BIO) MASTER OF SCIENCE IN SCIENCE EDUCATION, MAJOR IN BIOLOGY(Ver Sem 1, Ver Year 2004)',
+    'MSSE CH_2004_1':
+        '(MSSE CH) MASTER OF SCIENCE IN SCIENCE EDUCATION, MAJOR IN CHEMISTRY(Ver Sem 1, Ver Year 2004)',
+    'MSSE GS_2004_1':
+        '(MSSE GS) MASTER OF SCIENCE IN SCIENCE EDUCATION, MAJOR IN GENERAL SCIENCE(Ver Sem 1, Ver Year 2004)',
+    'MSSE PS_2004_1':
+        '(MSSE PS) MASTER OF SCIENCE IN SCIENCE EDUCATION, MAJOR IN PHYSICS(Ver Sem 1, Ver Year 2004)',
+    'MS SOCDEV_2019_1':
+        '(MS SOCDEV) MASTER OF SCIENCE IN SOCIAL DEVELOPMENT(Ver Sem 1, Ver Year 2019)',
+    MSSM_2020_1:
+        '(MSSM) MASTER OF SCIENCE IN SUSTAINABILITY MANAGEMENT(Ver Sem 1, Ver Year 2020)',
+    'BS REnt_2024_1':
+        '(BS REnt) BACHELOR OF SCIENCE IN RESTAURANT ENTREPRENEURSHIP(Ver Sem 1, Ver Year 2024)',
+    'AB PanFil_2024_1':
+        '(AB PanFil) BATSILYER NG SINING SA PANITIKANG FILIPINO(Ver Sem 1, Ver Year 2024)',
+    'MA PagFil_2019_1':
+        '(MA PagFil) DALUBHASA NG SINING SA PAGTUTURO NG FILIPINO(Ver Sem 1, Ver Year 2019)',
+    'MA PanFil_2019_1':
+        '(MA PanFil) DALUBHASA NG SINING SA PANITIKANG FILIPINO(Ver Sem 1, Ver Year 2019)',
+    'M BET_2019_1':
+        '(M BET) MASTER IN BASIC EDUCATION TEACHING(Ver Sem 1, Ver Year 2019)',
+    'M EngLLT_2019_1':
+        '(M EngLLT) MASTER IN ENGLISH LANGUAGE AND LITERATURE TEACHING(Ver Sem 1, Ver Year 2019)',
+    'M FMC_2019_1':
+        '(M FMC) MASTER IN FAMILY MINISTRY AND COUNSELING(Ver Sem 1, Ver Year 2019)',
+    'M PLM_2019_1':
+        '(M PLM) MASTER IN PASTORAL LEADERSHIP AND MANAGEMENT(Ver Sem 1, Ver Year 2019)',
+    'M PAM_2019_1':
+        '(M PAM) MASTER IN PASTORAL MINISTRY(Ver Sem 1, Ver Year 2019)',
+    'M Philo_2019_1':
+        '(M Philo) MASTER IN PHILOSOPHY(Ver Sem 1, Ver Year 2019)',
+    'M SRD_2019_1':
+        '(M SRD) MASTER IN SPIRITUALITY AND RETREAT DIRECTING(Ver Sem 1, Ver Year 2019)',
+    'M TPhilo_2019_1':
+        '(M TPhilo) MASTER IN TEACHING PHILOSOPHY(Ver Sem 1, Ver Year 2019)',
+    'M MathFin_2019_1':
+        '(M MathFin) MASTER IN APPLIED MATHEMATICS, MAJOR IN MATHEMATICAL FINANCE(Ver Sem 1, Ver Year 2019)',
+    MASA_2019_1:
+        '(MASA) MASTER IN APPLIED SOCIOLOGY AND ANTHROPOLOGY(Ver Sem 1, Ver Year 2019)',
+    'M BET-CPA_2021_0':
+        '(M BET-CPA) MASTER IN BASIC EDUCATION TEACHING(Ver Sem 0, Ver Year 2021)',
+    MBIED_2001_0:
+        '(MBIED) MASTER IN BIOLOGY EDUCATION(Ver Sem 0, Ver Year 2001)',
+    MChem_2002_0: '(MChem) MASTER IN CHEMISTRY(Ver Sem 0, Ver Year 2002)',
+    'M CH-ED_2019_1':
+        '(M CH-ED) MASTER IN CHEMISTRY EDUCATION(Ver Sem 1, Ver Year 2019)',
+    'M Comm_2019_1':
+        '(M Comm) MASTER IN COMMUNICATION(Ver Sem 1, Ver Year 2019)',
+    'M CPsych_2019_1':
+        '(M CPsych) MASTER IN COUNSELING PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+    'M DSc_2020_1': '(M DSc) MASTER IN DATA SCIENCE(Ver Sem 1, Ver Year 2020)',
+    'M DevPsych_2019_1':
+        '(M DevPsych) MASTER IN DEVELOPMENTAL PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+    'M DRRes_2019_1':
+        '(M DRRes) MASTER IN DISASTER RISK AND RESILIENCE(Ver Sem 1, Ver Year 2019)',
+    'M Eco_2019_1': '(M Eco) MASTER IN ECONOMICS(Ver Sem 1, Ver Year 2019)',
+    'M ED-EA_2019_1':
+        '(M ED-EA) MASTER IN EDUCATION, MAJOR IN EDUCATIONAL ADMINISTRATION(Ver Sem 1, Ver Year 2019)',
+    'M ED-EA-EML_2021_0':
+        '(M ED-EA-EML) MASTER IN EDUCATION, MAJOR IN EDUCATIONAL ADMINISTRATION(Ver Sem 0, Ver Year 2021)',
+    'M ED-GC-CPA_2021_0':
+        '(M ED-GC-CPA) MASTER IN EDUCATION, MAJOR IN GUIDANCE AND COUNSELING(Ver Sem 0, Ver Year 2021)',
+    'M ED-GC_2019_1':
+        '(M ED-GC) MASTER IN EDUCATION, MAJOR IN GUIDANCE AND COUNSELING(Ver Sem 1, Ver Year 2019)',
+    'M EdAd_2019_1':
+        '(M EdAd) MASTER IN EDUCATIONAL ADMINISTRATION(Ver Sem 1, Ver Year 2019)',
+    'M EdAd-EML_2021_0':
+        '(M EdAd-EML) MASTER IN EDUCATIONAL ADMINISTRATION(Ver Sem 0, Ver Year 2021)',
+    MEM_2019_1:
+        '(MEM) MASTER IN ENVIRONMENTAL MANAGEMENT(Ver Sem 1, Ver Year 2019)',
+    'M EU_2017_1':
+        '(M EU) MASTER IN EUROPEAN STUDIES - COMPARATIVE REGIONAL RELATIONS OF ASIA AND EUROPE (NON-THESIS TRACK)(Ver Sem 1, Ver Year 2017)',
+    'M EURO_2019_1':
+        '(M EURO) MASTER IN EUROPEAN STUDIES, MAJOR IN COMPARATIVE REGIONAL RELATIONS OF ASIA AND EUROPE(Ver Sem 1, Ver Year 2019)',
+    'M GC_2019_1':
+        '(M GC) MASTER IN GUIDANCE AND COUNSELING(Ver Sem 1, Ver Year 2019)',
+    'M GC-CPA_2021_0':
+        '(M GC-CPA) MASTER IN GUIDANCE AND COUNSELING(Ver Sem 0, Ver Year 2021)',
+    'M Hist_2019_1': '(M Hist) MASTER IN HISTORY(Ver Sem 1, Ver Year 2019)',
+    MIT_2019_1:
+        '(MIT) MASTER IN INFORMATION TECHNOLOGY(Ver Sem 1, Ver Year 2019)',
+    'M ITI_2019_1':
+        '(M ITI) MASTER IN INFORMATION TECHNOLOGY INTEGRATION(Ver Sem 1, Ver Year 2019)',
+    'M ITI-CPA_2021_0':
+        '(M ITI-CPA) MASTER IN INFORMATION TECHNOLOGY INTEGRATION(Ver Sem 0, Ver Year 2021)',
+    MIMAT_2019_1:
+        '(MIMAT) MASTER IN INNOVATION THROUGH MEDIA ARTS TECHNOLOGY(Ver Sem 1, Ver Year 2019)',
+    'M Journ_2019_2':
+        '(M Journ) MASTER IN JOURNALISM(Ver Sem 2, Ver Year 2019)',
+    'M Math-Ed_2019_1':
+        '(M Math-Ed) MASTER IN MATHEMATICS EDUCATION(Ver Sem 1, Ver Year 2019)',
+    'M OrgPsych_2019_1':
+        '(M OrgPsych) MASTER IN ORGANIZATIONAL PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+    'M Phys_2019_1': '(M Phys) MASTER IN PHYSICS(Ver Sem 1, Ver Year 2019)',
+    'M PhysEd_2019_1':
+        '(M PhysEd) MASTER IN PHYSICS EDUCATION(Ver Sem 1, Ver Year 2019)',
+    'M PolSc-GP_2019_2':
+        '(M PolSc-GP) MASTER IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS(Ver Sem 2, Ver Year 2019)',
+    'M Rel-Ed_2019_1':
+        '(M Rel-Ed) MASTER IN RELIGIOUS EDUCATION(Ver Sem 1, Ver Year 2019)',
+    'M SciEd_2019_1':
+        '(M SciEd) MASTER IN SCIENCE EDUCATION(Ver Sem 1, Ver Year 2019)',
+    'M SocPsych_2019_1':
+        '(M SocPsych) MASTER IN SOCIAL PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+    'MTChnFL-CPA_2021_0':
+        '(MTChnFL-CPA) MASTER IN TEACHING CHINESE AS A FOREIGN LANGUAGE(Ver Sem 0, Ver Year 2021)',
+    MTChnFL_2019_1:
+        '(MTChnFL) MASTER IN TEACHING CHINESE AS A FOREIGN LANGUAGE(Ver Sem 1, Ver Year 2019)',
+    MTSDev_2020_0:
+        '(MTSDev) MASTER IN TRANSDISCIPLINARY SOCIAL DEVELOPMENT(Ver Sem 0, Ver Year 2020)',
+    'M AMF_2019_1':
+        '(M AMF) MASTER OF APPLIED MATHEMATICS, MAJOR IN MATHEMATICAL FINANCE(Ver Sem 1, Ver Year 2019)',
+    'MA Anthropology_2019_1':
+        '(MA Anthropology) MASTER OF ARTS IN ANTHROPOLOGY(Ver Sem 1, Ver Year 2019)',
+    'MA BET-CPA_2021_0':
+        '(MA BET-CPA) MASTER OF ARTS IN BASIC EDUCATION TEACHING(Ver Sem 0, Ver Year 2021)',
+};
+
+export const labels = [
+    {
+        label: '(AB AM) BACHELOR OF ARTS IN ART MANAGEMENT(Ver Sem 1, Ver Year 2024)',
+        id: 0,
+    },
+    {
+        label: '(AB ChnS-B) BACHELOR OF ARTS IN CHINESE STUDIES(Ver Sem 1, Ver Year 2020)',
+        id: 1,
+    },
+    {
+        label: '(AB ChnS) BACHELOR OF ARTS IN CHINESE STUDIES(Ver Sem 1, Ver Year 2024)',
+        id: 2,
+    },
+    {
+        label: '(AB COM) BACHELOR OF ARTS IN COMMUNICATION(Ver Sem 1, Ver Year 2024)',
+        id: 3,
+    },
+    {
+        label: '(AB DS) BACHELOR OF ARTS IN DEVELOPMENT STUDIES(Ver Sem 1, Ver Year 2024)',
+        id: 4,
+    },
+    {
+        label: '(AB Dip IR) BACHELOR OF ARTS IN DIPLOMACY AND INTERNATIONAL RELATIONS WITH SPECIALIZATION IN EAST AND SOUTHEAST ASIAN STUDIES(Ver Sem 1, Ver Year 2024)',
+        id: 5,
+    },
+    {
+        label: '(AB EC) BACHELOR OF ARTS IN ECONOMICS(Ver Sem 1, Ver Year 2024)',
+        id: 6,
+    },
+    {
+        label: '(AB EC-H) BACHELOR OF ARTS IN ECONOMICS (HONORS PROGRAM)(Ver Sem 1, Ver Year 2024)',
+        id: 7,
+    },
+    {
+        label: '(AB EU) BACHELOR OF ARTS IN EUROPEAN STUDIES(Ver Sem 1, Ver Year 24BE)',
+        id: 8,
+    },
+    {
+        label: '(AB HI) BACHELOR OF ARTS IN HISTORY(Ver Sem 1, Ver Year 2024)',
+        id: 9,
+    },
+    {
+        label: '(AB HUM) BACHELOR OF ARTS IN HUMANITIES(Ver Sem 1, Ver Year 2024)',
+        id: 10,
+    },
+    {
+        label: '(AB IS) BACHELOR OF ARTS IN INTERDISCIPLINARY STUDIES(Ver Sem 1, Ver Year 2024)',
+        id: 11,
+    },
+    {
+        label: '(AB LIT(ENG)) BACHELOR OF ARTS IN LITERATURE (ENGLISH)(Ver Sem 1, Ver Year 24TB)',
+        id: 12,
+    },
+    {
+        label: '(AB MEC) BACHELOR OF ARTS IN MANAGEMENT ECONOMICS(Ver Sem 1, Ver Year 2024)',
+        id: 13,
+    },
+    {
+        label: '(AB PH) BACHELOR OF ARTS IN PHILOSOPHY(Ver Sem 1, Ver Year 2024)',
+        id: 14,
+    },
+    {
+        label: '(AB PH (PRE-DIV)) BACHELOR OF ARTS IN PHILOSOPHY(Ver Sem 1, Ver Year 2006)',
+        id: 15,
+    },
+    {
+        label: '(AB MA-POS) BACHELOR OF ARTS IN POLITICAL SCIENCE(Ver Sem 1, Ver Year 2020)',
+        id: 16,
+    },
+    {
+        label: '(AB POS) BACHELOR OF ARTS IN POLITICAL SCIENCE(Ver Sem 1, Ver Year 2024)',
+        id: 17,
+    },
+    {
+        label: '(AB PSY) BACHELOR OF ARTS IN PSYCHOLOGY(Ver Sem 1, Ver Year 2024)',
+        id: 18,
+    },
+    {
+        label: '(AB SOS) BACHELOR OF ARTS IN SOCIAL SCIENCES(Ver Sem 1, Ver Year 2002)',
+        id: 19,
+    },
+    {
+        label: '(AB SOCIO) BACHELOR OF ARTS IN SOCIOLOGY(Ver Sem 1, Ver Year 2024)',
+        id: 20,
+    },
+    {
+        label: '(BFA AM) BACHELOR OF FINE ARTS IN ART MANAGEMENT(Ver Sem 1, Ver Year 2014)',
+        id: 21,
+    },
+    {
+        label: '(BFA CW) BACHELOR OF FINE ARTS IN CREATIVE WRITING(Ver Sem 1, Ver Year 2024)',
+        id: 22,
+    },
+    {
+        label: '(BFA ID) BACHELOR OF FINE ARTS IN INFORMATION DESIGN(Ver Sem 1, Ver Year 2024)',
+        id: 23,
+    },
+    {
+        label: '(BFA TA) BACHELOR OF FINE ARTS IN THEATER ARTS(Ver Sem 1, Ver Year 2024)',
+        id: 24,
+    },
+    {
+        label: '(BS AMDSc-M DSc) BACHELOR OF SCIENCE IN APPLIED MATHEMATICS(Ver Sem 1, Ver Year 2024)',
+        id: 25,
+    },
+    {
+        label: '(BSM AMF) BACHELOR OF SCIENCE IN APPLIED MATHEMATICS WITH SPECIALIZATION IN MATHEMATICAL FINANCE(Ver Sem 1, Ver Year 2024)',
+        id: 26,
+    },
+    {
+        label: '(BS APS-MSE) BACHELOR OF SCIENCE IN APPLIED PHYSICS - BACHELOR OF SCIENCE IN MATERIALS SCIENCE AND ENGINEERING(Ver Sem 1, Ver Year 2024)',
+        id: 27,
+    },
+    {
+        label: '(BS BIO) BACHELOR OF SCIENCE IN BIOLOGY(Ver Sem 1, Ver Year 2024)',
+        id: 28,
+    },
+    {
+        label: '(BSMS CH) BACHELOR OF SCIENCE IN CHEMISTRY(Ver Sem 1, Ver Year 2020)',
+        id: 29,
+    },
+    {
+        label: '(BS CH) BACHELOR OF SCIENCE IN CHEMISTRY(Ver Sem 1, Ver Year 2024)',
+        id: 30,
+    },
+    {
+        label: '(BS CH-MSE) BACHELOR OF SCIENCE IN CHEMISTRY - BACHELOR OF SCIENCE IN MATERIALS SCIENCE AND ENGINEERING(Ver Sem 1, Ver Year 2024)',
+        id: 31,
+    },
+    {
+        label: '(BS COMTECH) BACHELOR OF SCIENCE IN COMMUNICATIONS TECHNOLOGY MANAGEMENT(Ver Sem 1, Ver Year 2024)',
+        id: 32,
+    },
+    {
+        label: '(BS CoE) BACHELOR OF SCIENCE IN COMPUTER ENGINEERING(Ver Sem 1, Ver Year 2007)',
+        id: 33,
+    },
+    {
+        label: '(BS CpE) BACHELOR OF SCIENCE IN COMPUTER ENGINEERING(Ver Sem 1, Ver Year 2024)',
+        id: 34,
+    },
+    {
+        label: '(BSMS CS) BACHELOR OF SCIENCE IN COMPUTER SCIENCE(Ver Sem 1, Ver Year 2020)',
+        id: 35,
+    },
+    {
+        label: '(BS CS) BACHELOR OF SCIENCE IN COMPUTER SCIENCE(Ver Sem 1, Ver Year 2024)',
+        id: 36,
+    },
+    {
+        label: '(BS CS-DGDD) BACHELOR OF SCIENCE IN COMPUTER SCIENCE - BACHELOR OF SCIENCE IN DIGITAL GAME DESIGN AND DEVELOPMENT(Ver Sem 1, Ver Year 2024)',
+        id: 37,
+    },
+    {
+        label: '(BS EcE) BACHELOR OF SCIENCE IN ELECTRONICS ENGINEERING(Ver Sem 1, Ver Year 2024)',
+        id: 38,
+    },
+    {
+        label: '(BS ES) BACHELOR OF SCIENCE IN ENVIRONMENTAL SCIENCE(Ver Sem 1, Ver Year 2024)',
+        id: 39,
+    },
+    {
+        label: '(BS HS) BACHELOR OF SCIENCE IN HEALTH SCIENCES(Ver Sem 1, Ver Year 2024)',
+        id: 40,
+    },
+    {
+        label: '(BS ITE) BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY ENTREPRENEURSHIP(Ver Sem 1, Ver Year 2024)',
+        id: 41,
+    },
+    {
+        label: '(BS LEARN) BACHELOR OF SCIENCE IN LEARNING SCIENCE AND DESIGN(Ver Sem 1, Ver Year 2024)',
+        id: 42,
+    },
+    {
+        label: '(BS LM) BACHELOR OF SCIENCE IN LEGAL MANAGEMENT(Ver Sem 1, Ver Year 2024)',
+        id: 43,
+    },
+    {
+        label: '(BS LfSci) BACHELOR OF SCIENCE IN LIFE SCIENCES(Ver Sem 1, Ver Year 2024)',
+        id: 44,
+    },
+    {
+        label: '(BS MGT) BACHELOR OF SCIENCE IN MANAGEMENT(Ver Sem 1, Ver Year 2024)',
+        id: 45,
+    },
+    {
+        label: '(BS MGT-H) BACHELOR OF SCIENCE IN MANAGEMENT (HONORS PROGRAM)(Ver Sem 1, Ver Year 2024)',
+        id: 46,
+    },
+    {
+        label: '(BS ME) BACHELOR OF SCIENCE IN MANAGEMENT ENGINEERING(Ver Sem 1, Ver Year 2024)',
+        id: 47,
+    },
+    {
+        label: '(BSMIS-MSCS) BACHELOR OF SCIENCE IN MANAGEMENT INFORMATION SYSTEMS(Ver Sem 1, Ver Year 2020)',
+        id: 48,
+    },
+    {
+        label: '(BS MIS) BACHELOR OF SCIENCE IN MANAGEMENT INFORMATION SYSTEMS(Ver Sem 1, Ver Year 2024)',
+        id: 49,
+    },
+    {
+        label: '(BS MAC) BACHELOR OF SCIENCE IN MANAGEMENT OF APPLIED CHEMISTRY(Ver Sem 1, Ver Year 2024)',
+        id: 50,
+    },
+    {
+        label: '(BS MA) BACHELOR OF SCIENCE IN MATHEMATICS(Ver Sem 1, Ver Year 2024)',
+        id: 51,
+    },
+    {
+        label: '(BS-PS) BACHELOR OF SCIENCE IN PHYSICS(Ver Sem 1, Ver Year 2011)',
+        id: 52,
+    },
+    {
+        label: '(BS PS) BACHELOR OF SCIENCE IN PHYSICS(Ver Sem 1, Ver Year 2024)',
+        id: 53,
+    },
+    {
+        label: '(BS PSY) BACHELOR OF SCIENCE IN PSYCHOLOGY(Ver Sem 1, Ver Year 2024)',
+        id: 54,
+    },
+    {
+        label: '(MA BET) MASTER OF ARTS IN BASIC EDUCATION TEACHING(Ver Sem 1, Ver Year 2019)',
+        id: 55,
+    },
+    {
+        label: '(MA Comm) MASTER OF ARTS IN COMMUNICATION(Ver Sem 1, Ver Year 2019)',
+        id: 56,
+    },
+    {
+        label: '(MA PSY-CPsych) MASTER OF ARTS IN COUNSELING PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 57,
+    },
+    {
+        label: '(MA PSY-DevPsych) MASTER OF ARTS IN DEVELOPMENTAL PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 58,
+    },
+    {
+        label: '(MA Eco) MASTER OF ARTS IN ECONOMICS(Ver Sem 1, Ver Year 2019)',
+        id: 59,
+    },
+    {
+        label: '(MA ED-BET-I) MASTER OF ARTS IN EDUCATION, MAJOR IN BASIC EDUCATION TEACHING (OPTION 1: THESIS)(Ver Sem 0, Ver Year 2014)',
+        id: 60,
+    },
+    {
+        label: '(MA ED-BET-I-CPA) MASTER OF ARTS IN EDUCATION, MAJOR IN BASIC EDUCATION TEACHING (OPTION 1: THESIS)(Ver Sem 0, Ver Year 2021)',
+        id: 61,
+    },
+    {
+        label: '(MAED-BET-II-CPA) MASTER OF ARTS IN EDUCATION, MAJOR IN BASIC EDUCATION TEACHING (OPTION 2: NON-THESIS)(Ver Sem 0, Ver Year 2021)',
+        id: 62,
+    },
+    {
+        label: '(MA ED-EA-EML) MASTER OF ARTS IN EDUCATION, MAJOR IN EDUCATIONAL ADMINISTRATION(Ver Sem 0, Ver Year 2021)',
+        id: 63,
+    },
+    {
+        label: '(MA ED-EA) MASTER OF ARTS IN EDUCATION, MAJOR IN EDUCATIONAL ADMINISTRATION(Ver Sem 1, Ver Year 2019)',
+        id: 64,
+    },
+    {
+        label: '(MA ED-GC-CPA) MASTER OF ARTS IN EDUCATION, MAJOR IN GUIDANCE AND COUNSELING(Ver Sem 0, Ver Year 2021)',
+        id: 65,
+    },
+    {
+        label: '(MA ED-GC) MASTER OF ARTS IN EDUCATION, MAJOR IN GUIDANCE AND COUNSELING(Ver Sem 1, Ver Year 2019)',
+        id: 66,
+    },
+    {
+        label: '(MA ED-ITI-CPA) MASTER OF ARTS IN EDUCATION, MAJOR IN INFORMATION TECHNOLOGY INTEGRATION(Ver Sem 1, Ver Year 2021)',
+        id: 67,
+    },
+    {
+        label: '(MA ED-ITI) MASTER OF ARTS IN EDUCATION, MAJOR IN INFORMATION TECHNOLOGY INTEGRATION(Ver Sem 1, Ver Year 2019)',
+        id: 68,
+    },
+    {
+        label: '(MA ED-RE-CPA) MASTER OF ARTS IN EDUCATION, MAJOR IN READING EDUCATION(Ver Sem 0, Ver Year 2021)',
+        id: 69,
+    },
+    {
+        label: '(MA EdAd) MASTER OF ARTS IN EDUCATIONAL ADMINISTRATION(Ver Sem 1, Ver Year 2019)',
+        id: 70,
+    },
+    {
+        label: '(MA EdAd-EML) MASTER OF ARTS IN EDUCATIONAL ADMINISTRATION(Ver Sem 0, Ver Year 2021)',
+        id: 71,
+    },
+    {
+        label: '(MA EngLLT) MASTER OF ARTS IN ENGLISH LANGUAGE AND LITERATURE TEACHING(Ver Sem 1, Ver Year 2019)',
+        id: 72,
+    },
+    {
+        label: '(MA EU) MASTER OF ARTS IN EUROPEAN STUDIES - COMPARATIVE REGIONAL RELATIONS OF ASIA AND EUROPE (THESIS TRACK)(Ver Sem 1, Ver Year 2017)',
+        id: 73,
+    },
+    {
+        label: '(MA EURO) MASTER OF ARTS IN EUROPEAN STUDIES MAJOR IN COMPARATIVE REGIONAL RELATIONS OF ASIA AND EUROPE(Ver Sem 1, Ver Year 2019)',
+        id: 74,
+    },
+    {
+        label: '(MA GC) MASTER OF ARTS IN GUIDANCE AND COUNSELING(Ver Sem 1, Ver Year 2019)',
+        id: 75,
+    },
+    {
+        label: '(MA GC-CPA) MASTER OF ARTS IN GUIDANCE AND COUNSELING(Ver Sem 0, Ver Year 2021)',
+        id: 76,
+    },
+    {
+        label: '(MA Hist) MASTER OF ARTS IN HISTORY(Ver Sem 1, Ver Year 2019)',
+        id: 77,
+    },
+    {
+        label: '(MA JapS) MASTER OF ARTS IN JAPANESE STUDIES(Ver Sem 1, Ver Year 2019)',
+        id: 78,
+    },
+    {
+        label: '(MA LitCS) MASTER OF ARTS IN LITERARY AND CULTURAL STUDIES(Ver Sem 1, Ver Year 2019)',
+        id: 79,
+    },
+    {
+        label: '(MA LIT-FIL-II) MASTER OF ARTS IN LITERATURE (FILIPINO) - NON-THESIS OPTION(Ver Sem 1, Ver Year 2019)',
+        id: 80,
+    },
+    {
+        label: '(MA LIT-FIL-STRA) MASTER OF ARTS IN LITERATURE (FILIPINO) - STRAIGHT PROGRAM(Ver Sem 1, Ver Year 2019)',
+        id: 81,
+    },
+    {
+        label: '(MA LIT-FIL-I) MASTER OF ARTS IN LITERATURE (FILIPINO) - THESIS OPTION(Ver Sem 0, Ver Year 2001)',
+        id: 82,
+    },
+    {
+        label: '(MA LIT-FIL-CW) MASTER OF ARTS IN LITERATURE (FILIPINO), MAJOR IN CREATIVE WRITING(Ver Sem 1, Ver Year 2019)',
+        id: 83,
+    },
+    {
+        label: '(MA LIT-FIL-TL) MASTER OF ARTS IN LITERATURE (FILIPINO), MAJOR IN TEACHING LITERATURE(Ver Sem 1, Ver Year 2019)',
+        id: 84,
+    },
+    {
+        label: '(MA OrgPsych) MASTER OF ARTS IN ORGANIZATIONAL PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 85,
+    },
+    {
+        label: '(MA Philo) MASTER OF ARTS IN PHILOSOPHY (Ver Sem 1, Ver Year 2019)',
+        id: 86,
+    },
+    {
+        label: '(MA PolSc-GP-SP) MASTER OF ARTS IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS(Ver Sem 2, Ver Year 2019)',
+        id: 87,
+    },
+    {
+        label: '(MA PolSc-GP) MASTER OF ARTS IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS(Ver Sem 2, Ver Year 2019)',
+        id: 88,
+    },
+    {
+        label: '(MA POS-GP-II-SP) MASTER OF ARTS IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS (NON-THESIS TRACK)(Ver Sem 0, Ver Year 2004)',
+        id: 89,
+    },
+    {
+        label: '(MA POS-GP-II) MASTER OF ARTS IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS (NON-THESIS TRACK)(Ver Sem 0, Ver Year 2010)',
+        id: 90,
+    },
+    {
+        label: '(MA POS-GP-I) MASTER OF ARTS IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS (THESIS TRACK)(Ver Sem 0, Ver Year 2004)',
+        id: 91,
+    },
+    {
+        label: '(MA POS-GP-I-SP) MASTER OF ARTS IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS (THESIS TRACK)(Ver Sem 0, Ver Year 2004)',
+        id: 92,
+    },
+    {
+        label: '(MA PSY-IOP-II-S) MASTER OF ARTS IN PSYCHOLOGY WITH CONCENTRATION IN INDUSTRIAL-ORGANIZATIONAL PSYCHOLOGY: STRATEGIC HUMAN RESOURCE MANAGEMENT TRACK (NON-THESIS)(Ver Sem 0, Ver Year 2014)',
+        id: 93,
+    },
+    {
+        label: '(MA PSY-IOP-II) MASTER OF ARTS IN PSYCHOLOGY, CONCENTRATION IN INDUSTRIAL-ORGANIZATIONAL PSYCHOLOGY(NON-THESIS PROGRAM)(Ver Sem 0, Ver Year 2004)',
+        id: 94,
+    },
+    {
+        label: '(MA REd) MASTER OF ARTS IN READING EDUCATION(Ver Sem 1, Ver Year 2019)',
+        id: 95,
+    },
+    {
+        label: '(MA REd-CPA) MASTER OF ARTS IN READING EDUCATION(Ver Sem 0, Ver Year 2021)',
+        id: 96,
+    },
+    {
+        label: '(MA Rel-Ed) MASTER OF ARTS IN RELIGIOUS EDUCATION(Ver Sem 1, Ver Year 2019)',
+        id: 97,
+    },
+    {
+        label: '(MA SocPsych) MASTER OF ARTS IN SOCIAL PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 98,
+    },
+    {
+        label: '(MA Socio) MASTER OF ARTS IN SOCIOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 99,
+    },
+    {
+        label: '(MA ThStud) MASTER OF ARTS IN THEOLOGICAL STUDIES(Ver Sem 1, Ver Year 2019)',
+        id: 100,
+    },
+    {
+        label: '(MA ANTHRO) MASTER OF ARTS, MAJOR IN ANTHROPOLOGY(Ver Sem 0, Ver Year 1987)',
+        id: 101,
+    },
+    {
+        label: '(MA COM-II) MASTER OF ARTS, MAJOR IN COMMUNICATION (NON-THESIS OPTION)(Ver Sem 1, Ver Year 2007)',
+        id: 102,
+    },
+    {
+        label: '(MA COM-I) MASTER OF ARTS, MAJOR IN COMMUNICATION (THESIS OPTION)(Ver Sem 1, Ver Year 2019)',
+        id: 103,
+    },
+    {
+        label: '(MA EC-I) MASTER OF ARTS, MAJOR IN ECONOMICS (OPTION I: THESIS)(Ver Sem 0, Ver Year 2001)',
+        id: 104,
+    },
+    {
+        label: '(MA EC-II) MASTER OF ARTS, MAJOR IN ECONOMICS (OPTION II: NO-THESIS)(Ver Sem 0, Ver Year 2001)',
+        id: 105,
+    },
+    {
+        label: '(MA ELLT-I) MASTER OF ARTS, MAJOR IN ENGLISH LANGUAGE AND LITERATURE TEACHING (OPTION 1 - THESIS)(Ver Sem 0, Ver Year 2006)',
+        id: 106,
+    },
+    {
+        label: '(MA ELLT-II) MASTER OF ARTS, MAJOR IN ENGLISH LANGUAGE AND LITERATURE TEACHING (OPTION 2 - NON-THESIS)(Ver Sem 0, Ver Year 2006)',
+        id: 107,
+    },
+    {
+        label: '(MA HI-I) MASTER OF ARTS, MAJOR IN HISTORY (OPTION 1: THESIS)(Ver Sem 0, Ver Year 1997)',
+        id: 108,
+    },
+    {
+        label: '(MA HI-II) MASTER OF ARTS, MAJOR IN HISTORY (OPTION 2: NON-THESIS)(Ver Sem 0, Ver Year 2004)',
+        id: 109,
+    },
+    {
+        label: '(MA JS) MASTER OF ARTS, MAJOR IN JAPANESE STUDIES(Ver Sem 0, Ver Year 1998)',
+        id: 110,
+    },
+    {
+        label: '(MA JOURN) MASTER OF ARTS, MAJOR IN JOURNALISM(Ver Sem 1, Ver Year 2016)',
+        id: 111,
+    },
+    {
+        label: '(MA LCS) MASTER OF ARTS, MAJOR IN LITERARY AND CULTURAL STUDIES(Ver Sem 0, Ver Year 2006)',
+        id: 112,
+    },
+    {
+        label: '(MA PAM) MASTER OF ARTS, MAJOR IN PASTORAL MINISTRY (NON-THESIS)(Ver Sem 1, Ver Year 2019)',
+        id: 113,
+    },
+    {
+        label: '(MA PAM-FMC) MASTER OF ARTS, MAJOR IN PASTORAL MINISTRY: FAMILY MINISTRY AND COUNSELING (NON-THESIS)(Ver Sem 1, Ver Year 2019)',
+        id: 114,
+    },
+    {
+        label: '(MA PAM-PM) MASTER OF ARTS, MAJOR IN PASTORAL MINISTRY: PASTORAL MANAGEMENT (NON-THESIS)(Ver Sem 1, Ver Year 2019)',
+        id: 115,
+    },
+    {
+        label: '(MA PAM-SRD) MASTER OF ARTS, MAJOR IN PASTORAL MINISTRY: SPIRITUALITY AND RETREAT DIRECTING (NON-THESIS)(Ver Sem 0, Ver Year 2004)',
+        id: 116,
+    },
+    {
+        label: '(MA PAS) MASTER OF ARTS, MAJOR IN PASTORAL STUDIES(Ver Sem 0, Ver Year 1998)',
+        id: 117,
+    },
+    {
+        label: '(MA PH) MASTER OF ARTS, MAJOR IN PHILOSOPHY(Ver Sem 0, Ver Year 1992)',
+        id: 118,
+    },
+    {
+        label: '(MA PH-I) MASTER OF ARTS, MAJOR IN PHILOSOPHY (OPTION I: THESIS)(Ver Sem 0, Ver Year 1994)',
+        id: 119,
+    },
+    {
+        label: '(MA PH-II) MASTER OF ARTS, MAJOR IN PHILOSOPHY (OPTION II: NO-THESIS)(Ver Sem 0, Ver Year 1994)',
+        id: 120,
+    },
+    {
+        label: '(MA POS) MASTER OF ARTS, MAJOR IN POLITICAL SCIENCE(Ver Sem 0, Ver Year 1996)',
+        id: 121,
+    },
+    {
+        label: '(MA REL-ED-FIRE) MASTER OF ARTS, MAJOR IN RELIGIOUS EDUCATION (NON-THESIS)(Ver Sem 0, Ver Year 2010)',
+        id: 122,
+    },
+    {
+        label: '(MA REL-ED) MASTER OF ARTS, MAJOR IN RELIGIOUS EDUCATION (NON-THESIS)(Ver Sem 0, Ver Year 2004)',
+        id: 123,
+    },
+    {
+        label: '(MA SOC) MASTER OF ARTS, MAJOR IN SOCIOLOGY(Ver Sem 0, Ver Year 1987)',
+        id: 124,
+    },
+    {
+        label: '(MA TPH) MASTER OF ARTS, MAJOR IN TEACHING PHILOSOPHY (NON-THESIS)(Ver Sem 0, Ver Year 1997)',
+        id: 125,
+    },
+    {
+        label: '(MA TH-STUD) MASTER OF ARTS, MAJOR IN THEOLOGICAL STUDIES(Ver Sem 1, Ver Year 2019)',
+        id: 126,
+    },
+    {
+        label: '(MA TH-STUD-FIRE) MASTER OF ARTS, MAJOR IN THEOLOGICAL STUDIES (FIRE)(Ver Sem 0, Ver Year 2011)',
+        id: 127,
+    },
+    { label: '(M BIO) MASTER OF BIOLOGY(Ver Sem 1, Ver Year 2013)', id: 128 },
+    {
+        label: '(M CHEM) MASTER OF CHEMISTRY(Ver Sem 1, Ver Year 2019)',
+        id: 129,
+    },
+    {
+        label: '(MDRR) MASTER OF DISASTER RISK AND RESILIENCE(Ver Sem 1, Ver Year 2018)',
+        id: 130,
+    },
+    { label: '(M PS) MASTER OF PHYSICS(Ver Sem 0, Ver Year 2004)', id: 131 },
+    {
+        label: '(MPSED) MASTER OF PHYSICS EDUCATION(Ver Sem 0, Ver Year 2001)',
+        id: 132,
+    },
+    {
+        label: '(MS AS) MASTER OF SCIENCE IN ATMOSPHERIC SCIENCE(Ver Sem 1, Ver Year 2019)',
+        id: 133,
+    },
+    {
+        label: '(MS BIO) MASTER OF SCIENCE IN BIOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 134,
+    },
+    {
+        label: '(MS CH) MASTER OF SCIENCE IN CHEMISTRY(Ver Sem 1, Ver Year 2019)',
+        id: 135,
+    },
+    {
+        label: '(MS CH-STRAIGHT) MASTER OF SCIENCE IN CHEMISTRY (STRAIGHT PROGRAM)(Ver Sem 0, Ver Year 2002)',
+        id: 136,
+    },
+    {
+        label: '(MS ChemEd) MASTER OF SCIENCE IN CHEMISTRY EDUCATION(Ver Sem 1, Ver Year 2019)',
+        id: 137,
+    },
+    {
+        label: '(MS CH-ED) MASTER OF SCIENCE IN CHEMISTRY EDUCATION(Ver Sem 1, Ver Year 2019)',
+        id: 138,
+    },
+    {
+        label: '(MS CS) MASTER OF SCIENCE IN COMPUTER SCIENCE(Ver Sem 1, Ver Year 2019)',
+        id: 139,
+    },
+    {
+        label: '(MS CS-STRAIGHT) MASTER OF SCIENCE IN COMPUTER SCIENCE (STRAIGHT PROGRAM)(Ver Sem 1, Ver Year 2019)',
+        id: 140,
+    },
+    {
+        label: '(MS DS) MASTER OF SCIENCE IN DATA SCIENCE(Ver Sem 1, Ver Year 2019)',
+        id: 141,
+    },
+    {
+        label: '(MS ECE) MASTER OF SCIENCE IN ELECTRONICS ENGINEERING(Ver Sem 1, Ver Year 2019)',
+        id: 142,
+    },
+    {
+        label: '(MS ES) MASTER OF SCIENCE IN ENVIRONMENTAL SCIENCE(Ver Sem 1, Ver Year 2019)',
+        id: 143,
+    },
+    {
+        label: '(MS IMAT) MASTER OF SCIENCE IN INNOVATION THROUGH MEDIA ARTS TECHNOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 144,
+    },
+    {
+        label: '(MSM) MASTER OF SCIENCE IN MANAGEMENT(Ver Sem 1, Ver Year 2019)',
+        id: 145,
+    },
+    {
+        label: '(MS MA) MASTER OF SCIENCE IN MATHEMATICS(Ver Sem 1, Ver Year 2019)',
+        id: 146,
+    },
+    {
+        label: '(MS Math-Ed) MASTER OF SCIENCE IN MATHEMATICS EDUCATION(Ver Sem 1, Ver Year 2019)',
+        id: 147,
+    },
+    {
+        label: '(MS PS) MASTER OF SCIENCE IN PHYSICS(Ver Sem 1, Ver Year 2019)',
+        id: 148,
+    },
+    {
+        label: '(MS SciEd) MASTER OF SCIENCE IN SCIENCE EDUCATION(Ver Sem 1, Ver Year 2019)',
+        id: 149,
+    },
+    {
+        label: '(MSSE BIO) MASTER OF SCIENCE IN SCIENCE EDUCATION, MAJOR IN BIOLOGY(Ver Sem 1, Ver Year 2004)',
+        id: 150,
+    },
+    {
+        label: '(MSSE CH) MASTER OF SCIENCE IN SCIENCE EDUCATION, MAJOR IN CHEMISTRY(Ver Sem 1, Ver Year 2004)',
+        id: 151,
+    },
+    {
+        label: '(MSSE GS) MASTER OF SCIENCE IN SCIENCE EDUCATION, MAJOR IN GENERAL SCIENCE(Ver Sem 1, Ver Year 2004)',
+        id: 152,
+    },
+    {
+        label: '(MSSE PS) MASTER OF SCIENCE IN SCIENCE EDUCATION, MAJOR IN PHYSICS(Ver Sem 1, Ver Year 2004)',
+        id: 153,
+    },
+    {
+        label: '(MS SOCDEV) MASTER OF SCIENCE IN SOCIAL DEVELOPMENT(Ver Sem 1, Ver Year 2019)',
+        id: 154,
+    },
+    {
+        label: '(MSSM) MASTER OF SCIENCE IN SUSTAINABILITY MANAGEMENT(Ver Sem 1, Ver Year 2020)',
+        id: 155,
+    },
+    {
+        label: '(BS REnt) BACHELOR OF SCIENCE IN RESTAURANT ENTREPRENEURSHIP(Ver Sem 1, Ver Year 2024)',
+        id: 156,
+    },
+    {
+        label: '(AB PanFil) BATSILYER NG SINING SA PANITIKANG FILIPINO(Ver Sem 1, Ver Year 2024)',
+        id: 157,
+    },
+    {
+        label: '(MA PagFil) DALUBHASA NG SINING SA PAGTUTURO NG FILIPINO(Ver Sem 1, Ver Year 2019)',
+        id: 158,
+    },
+    {
+        label: '(MA PanFil) DALUBHASA NG SINING SA PANITIKANG FILIPINO(Ver Sem 1, Ver Year 2019)',
+        id: 159,
+    },
+    {
+        label: '(M BET) MASTER IN BASIC EDUCATION TEACHING(Ver Sem 1, Ver Year 2019)',
+        id: 160,
+    },
+    {
+        label: '(M EngLLT) MASTER IN ENGLISH LANGUAGE AND LITERATURE TEACHING(Ver Sem 1, Ver Year 2019)',
+        id: 161,
+    },
+    {
+        label: '(M FMC) MASTER IN FAMILY MINISTRY AND COUNSELING(Ver Sem 1, Ver Year 2019)',
+        id: 162,
+    },
+    {
+        label: '(M PLM) MASTER IN PASTORAL LEADERSHIP AND MANAGEMENT(Ver Sem 1, Ver Year 2019)',
+        id: 163,
+    },
+    {
+        label: '(M PAM) MASTER IN PASTORAL MINISTRY(Ver Sem 1, Ver Year 2019)',
+        id: 164,
+    },
+    {
+        label: '(M Philo) MASTER IN PHILOSOPHY(Ver Sem 1, Ver Year 2019)',
+        id: 165,
+    },
+    {
+        label: '(M SRD) MASTER IN SPIRITUALITY AND RETREAT DIRECTING(Ver Sem 1, Ver Year 2019)',
+        id: 166,
+    },
+    {
+        label: '(M TPhilo) MASTER IN TEACHING PHILOSOPHY(Ver Sem 1, Ver Year 2019)',
+        id: 167,
+    },
+    {
+        label: '(M MathFin) MASTER IN APPLIED MATHEMATICS, MAJOR IN MATHEMATICAL FINANCE(Ver Sem 1, Ver Year 2019)',
+        id: 168,
+    },
+    {
+        label: '(MASA) MASTER IN APPLIED SOCIOLOGY AND ANTHROPOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 169,
+    },
+    {
+        label: '(M BET-CPA) MASTER IN BASIC EDUCATION TEACHING(Ver Sem 0, Ver Year 2021)',
+        id: 170,
+    },
+    {
+        label: '(MBIED) MASTER IN BIOLOGY EDUCATION(Ver Sem 0, Ver Year 2001)',
+        id: 171,
+    },
+    { label: '(MChem) MASTER IN CHEMISTRY(Ver Sem 0, Ver Year 2002)', id: 172 },
+    {
+        label: '(M CH-ED) MASTER IN CHEMISTRY EDUCATION(Ver Sem 1, Ver Year 2019)',
+        id: 173,
+    },
+    {
+        label: '(M Comm) MASTER IN COMMUNICATION(Ver Sem 1, Ver Year 2019)',
+        id: 174,
+    },
+    {
+        label: '(M CPsych) MASTER IN COUNSELING PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 175,
+    },
+    {
+        label: '(M DSc) MASTER IN DATA SCIENCE(Ver Sem 1, Ver Year 2020)',
+        id: 176,
+    },
+    {
+        label: '(M DevPsych) MASTER IN DEVELOPMENTAL PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 177,
+    },
+    {
+        label: '(M DRRes) MASTER IN DISASTER RISK AND RESILIENCE(Ver Sem 1, Ver Year 2019)',
+        id: 178,
+    },
+    { label: '(M Eco) MASTER IN ECONOMICS(Ver Sem 1, Ver Year 2019)', id: 179 },
+    {
+        label: '(M ED-EA) MASTER IN EDUCATION, MAJOR IN EDUCATIONAL ADMINISTRATION(Ver Sem 1, Ver Year 2019)',
+        id: 180,
+    },
+    {
+        label: '(M ED-EA-EML) MASTER IN EDUCATION, MAJOR IN EDUCATIONAL ADMINISTRATION(Ver Sem 0, Ver Year 2021)',
+        id: 181,
+    },
+    {
+        label: '(M ED-GC-CPA) MASTER IN EDUCATION, MAJOR IN GUIDANCE AND COUNSELING(Ver Sem 0, Ver Year 2021)',
+        id: 182,
+    },
+    {
+        label: '(M ED-GC) MASTER IN EDUCATION, MAJOR IN GUIDANCE AND COUNSELING(Ver Sem 1, Ver Year 2019)',
+        id: 183,
+    },
+    {
+        label: '(M EdAd) MASTER IN EDUCATIONAL ADMINISTRATION(Ver Sem 1, Ver Year 2019)',
+        id: 184,
+    },
+    {
+        label: '(M EdAd-EML) MASTER IN EDUCATIONAL ADMINISTRATION(Ver Sem 0, Ver Year 2021)',
+        id: 185,
+    },
+    {
+        label: '(MEM) MASTER IN ENVIRONMENTAL MANAGEMENT(Ver Sem 1, Ver Year 2019)',
+        id: 186,
+    },
+    {
+        label: '(M EU) MASTER IN EUROPEAN STUDIES - COMPARATIVE REGIONAL RELATIONS OF ASIA AND EUROPE (NON-THESIS TRACK)(Ver Sem 1, Ver Year 2017)',
+        id: 187,
+    },
+    {
+        label: '(M EURO) MASTER IN EUROPEAN STUDIES, MAJOR IN COMPARATIVE REGIONAL RELATIONS OF ASIA AND EUROPE(Ver Sem 1, Ver Year 2019)',
+        id: 188,
+    },
+    {
+        label: '(M GC) MASTER IN GUIDANCE AND COUNSELING(Ver Sem 1, Ver Year 2019)',
+        id: 189,
+    },
+    {
+        label: '(M GC-CPA) MASTER IN GUIDANCE AND COUNSELING(Ver Sem 0, Ver Year 2021)',
+        id: 190,
+    },
+    { label: '(M Hist) MASTER IN HISTORY(Ver Sem 1, Ver Year 2019)', id: 191 },
+    {
+        label: '(MIT) MASTER IN INFORMATION TECHNOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 192,
+    },
+    {
+        label: '(M ITI) MASTER IN INFORMATION TECHNOLOGY INTEGRATION(Ver Sem 1, Ver Year 2019)',
+        id: 193,
+    },
+    {
+        label: '(M ITI-CPA) MASTER IN INFORMATION TECHNOLOGY INTEGRATION(Ver Sem 0, Ver Year 2021)',
+        id: 194,
+    },
+    {
+        label: '(MIMAT) MASTER IN INNOVATION THROUGH MEDIA ARTS TECHNOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 195,
+    },
+    {
+        label: '(M Journ) MASTER IN JOURNALISM(Ver Sem 2, Ver Year 2019)',
+        id: 196,
+    },
+    {
+        label: '(M Math-Ed) MASTER IN MATHEMATICS EDUCATION(Ver Sem 1, Ver Year 2019)',
+        id: 197,
+    },
+    {
+        label: '(M OrgPsych) MASTER IN ORGANIZATIONAL PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 198,
+    },
+    { label: '(M Phys) MASTER IN PHYSICS(Ver Sem 1, Ver Year 2019)', id: 199 },
+    {
+        label: '(M PhysEd) MASTER IN PHYSICS EDUCATION(Ver Sem 1, Ver Year 2019)',
+        id: 200,
+    },
+    {
+        label: '(M PolSc-GP) MASTER IN POLITICAL SCIENCE, MAJOR IN GLOBAL POLITICS(Ver Sem 2, Ver Year 2019)',
+        id: 201,
+    },
+    {
+        label: '(M Rel-Ed) MASTER IN RELIGIOUS EDUCATION(Ver Sem 1, Ver Year 2019)',
+        id: 202,
+    },
+    {
+        label: '(M SciEd) MASTER IN SCIENCE EDUCATION(Ver Sem 1, Ver Year 2019)',
+        id: 203,
+    },
+    {
+        label: '(M SocPsych) MASTER IN SOCIAL PSYCHOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 204,
+    },
+    {
+        label: '(MTChnFL-CPA) MASTER IN TEACHING CHINESE AS A FOREIGN LANGUAGE(Ver Sem 0, Ver Year 2021)',
+        id: 205,
+    },
+    {
+        label: '(MTChnFL) MASTER IN TEACHING CHINESE AS A FOREIGN LANGUAGE(Ver Sem 1, Ver Year 2019)',
+        id: 206,
+    },
+    {
+        label: '(MTSDev) MASTER IN TRANSDISCIPLINARY SOCIAL DEVELOPMENT(Ver Sem 0, Ver Year 2020)',
+        id: 207,
+    },
+    {
+        label: '(M AMF) MASTER OF APPLIED MATHEMATICS, MAJOR IN MATHEMATICAL FINANCE(Ver Sem 1, Ver Year 2019)',
+        id: 208,
+    },
+    {
+        label: '(MA Anthropology) MASTER OF ARTS IN ANTHROPOLOGY(Ver Sem 1, Ver Year 2019)',
+        id: 209,
+    },
+    {
+        label: '(MA BET-CPA) MASTER OF ARTS IN BASIC EDUCATION TEACHING(Ver Sem 0, Ver Year 2021)',
+        id: 210,
+    },
+];
+
+export const course_codes = [
+    'AB AM_2024_1',
+    'AB ChnS-B_2020_1',
+    'AB ChnS_2024_1',
+    'AB COM_2024_1',
+    'AB DS_2024_1',
+    'AB Dip IR_2024_1',
+    'AB EC_2024_1',
+    'AB EC-H_2024_1',
+    'AB EU_2024_1',
+    'AB HI_2024_1',
+    'AB HUM_2024_1',
+    'AB IS_2024_1',
+    'AB LIT(ENG)_2024_1',
+    'AB MEC_2024_1',
+    'AB PH_2024_1',
+    'AB PH (PRE-DIV)_2006_1',
+    'AB MA-POS_2020_1',
+    'AB POS_2024_1',
+    'AB PSY_2024_1',
+    'AB SOS_2002_1',
+    'AB SOCIO_2024_1',
+    'BFA AM_2014_1',
+    'BFA CW_2024_1',
+    'BFA ID_2024_1',
+    'BFA TA_2024_1',
+    'BS AMDSc-M DSc_2024_1',
+    'BSM AMF_2024_1',
+    'BS APS-MSE_2024_1',
+    'BS BIO_2024_1',
+    'BSMS CH_2020_1',
+    'BS CH_2024_1',
+    'BS CH-MSE_2024_1',
+    'BS COMTECH_2024_1',
+    'BS CoE_2007_1',
+    'BS CpE_2024_1',
+    'BSMS CS_2020_1',
+    'BS CS_2024_1',
+    'BS CS-DGDD_2024_1',
+    'BS EcE_2024_1',
+    'BS ES_2024_1',
+    'BS HS_2024_1',
+    'BS ITE_2024_1',
+    'BS LEARN_2024_1',
+    'BS LM_2024_1',
+    'BS LfSci_2024_1',
+    'BS MGT_2024_1',
+    'BS MGT-H_2024_1',
+    'BS ME_2024_1',
+    'BSMIS-MSCS_2020_1',
+    'BS MIS_2024_1',
+    'BS MAC_2024_1',
+    'BS MA_2024_1',
+    'BS-PS_2011_1',
+    'BS PS_2024_1',
+    'BS PSY_2024_1',
+    'MA BET_2019_1',
+    'MA Comm_2019_1',
+    'MA PSY-CPsych_2019_1',
+    'MA PSY-DevPsych_2019_1',
+    'MA Eco_2019_1',
+    'MA ED-BET-I_2014_0',
+    'MA ED-BET-I-CPA_2021_0',
+    'MAED-BET-II-CPA_2021_0',
+    'MA ED-EA-EML_2021_0',
+    'MA ED-EA_2019_1',
+    'MA ED-GC-CPA_2021_0',
+    'MA ED-GC_2019_1',
+    'MA ED-ITI-CPA_2021_1',
+    'MA ED-ITI_2019_1',
+    'MA ED-RE-CPA_2021_0',
+    'MA EdAd_2019_1',
+    'MA EdAd-EML_2021_0',
+    'MA EngLLT_2019_1',
+    'MA EU_2017_1',
+    'MA EURO_2019_1',
+    'MA GC_2019_1',
+    'MA GC-CPA_2021_0',
+    'MA Hist_2019_1',
+    'MA JapS_2019_1',
+    'MA LitCS_2019_1',
+    'MA LIT-FIL-II_2019_1',
+    'MA LIT-FIL-STRA_2019_1',
+    'MA LIT-FIL-I_2001_0',
+    'MA LIT-FIL-CW_2019_1',
+    'MA LIT-FIL-TL_2019_1',
+    'MA OrgPsych_2019_1',
+    'MA Philo_2019_1',
+    'MA PolSc-GP-SP_2019_2',
+    'MA PolSc-GP_2019_2',
+    'MA POS-GP-II-SP_2004_0',
+    'MA POS-GP-II_2010_0',
+    'MA POS-GP-I_2004_0',
+    'MA POS-GP-I-SP_2004_0',
+    'MA PSY-IOP-II-S_2014_0',
+    'MA PSY-IOP-II_2004_0',
+    'MA REd_2019_1',
+    'MA REd-CPA_2021_0',
+    'MA Rel-Ed_2019_1',
+    'MA SocPsych_2019_1',
+    'MA Socio_2019_1',
+    'MA ThStud_2019_1',
+    'MA ANTHRO_1987_0',
+    'MA COM-II_2007_1',
+    'MA COM-I_2019_1',
+    'MA EC-I_2001_0',
+    'MA EC-II_2001_0',
+    'MA ELLT-I_2006_0',
+    'MA ELLT-II_2006_0',
+    'MA HI-I_1997_0',
+    'MA HI-II_2004_0',
+    'MA JS_1998_0',
+    'MA JOURN_2016_1',
+    'MA LCS_2006_0',
+    'MA PAM_2019_1',
+    'MA PAM-FMC_2019_1',
+    'MA PAM-PM_2019_1',
+    'MA PAM-SRD_2004_0',
+    'MA PAS_1998_0',
+    'MA PH_1992_0',
+    'MA PH-I_1994_0',
+    'MA PH-II_1994_0',
+    'MA POS_1996_0',
+    'MA REL-ED-FIRE_2010_0',
+    'MA REL-ED_2004_0',
+    'MA SOC_1987_0',
+    'MA TPH_1997_0',
+    'MA TH-STUD_2019_1',
+    'MA TH-STUD-FIRE_2011_0',
+    'M BIO_2013_1',
+    'M CHEM_2019_1',
+    'MDRR_2018_1',
+    'M PS_2004_0',
+    'MPSED_2001_0',
+    'MS AS_2019_1',
+    'MS BIO_2019_1',
+    'MS CH_2019_1',
+    'MS CH-STRAIGHT_2002_0',
+    'MS ChemEd_2019_1',
+    'MS CH-ED_2019_1',
+    'MS CS_2019_1',
+    'MS CS-STRAIGHT_2019_1',
+    'MS DS_2019_1',
+    'MS ECE_2019_1',
+    'MS ES_2019_1',
+    'MS IMAT_2019_1',
+    'MSM_2019_1',
+    'MS MA_2019_1',
+    'MS Math-Ed_2019_1',
+    'MS PS_2019_1',
+    'MS SciEd_2019_1',
+    'MSSE BIO_2004_1',
+    'MSSE CH_2004_1',
+    'MSSE GS_2004_1',
+    'MSSE PS_2004_1',
+    'MS SOCDEV_2019_1',
+    'MSSM_2020_1',
+    'BS REnt_2024_1',
+    'AB PanFil_2024_1',
+    'MA PagFil_2019_1',
+    'MA PanFil_2019_1',
+    'M BET_2019_1',
+    'M EngLLT_2019_1',
+    'M FMC_2019_1',
+    'M PLM_2019_1',
+    'M PAM_2019_1',
+    'M Philo_2019_1',
+    'M SRD_2019_1',
+    'M TPhilo_2019_1',
+    'M MathFin_2019_1',
+    'MASA_2019_1',
+    'M BET-CPA_2021_0',
+    'MBIED_2001_0',
+    'MChem_2002_0',
+    'M CH-ED_2019_1',
+    'M Comm_2019_1',
+    'M CPsych_2019_1',
+    'M DSc_2020_1',
+    'M DevPsych_2019_1',
+    'M DRRes_2019_1',
+    'M Eco_2019_1',
+    'M ED-EA_2019_1',
+    'M ED-EA-EML_2021_0',
+    'M ED-GC-CPA_2021_0',
+    'M ED-GC_2019_1',
+    'M EdAd_2019_1',
+    'M EdAd-EML_2021_0',
+    'MEM_2019_1',
+    'M EU_2017_1',
+    'M EURO_2019_1',
+    'M GC_2019_1',
+    'M GC-CPA_2021_0',
+    'M Hist_2019_1',
+    'MIT_2019_1',
+    'M ITI_2019_1',
+    'M ITI-CPA_2021_0',
+    'MIMAT_2019_1',
+    'M Journ_2019_2',
+    'M Math-Ed_2019_1',
+    'M OrgPsych_2019_1',
+    'M Phys_2019_1',
+    'M PhysEd_2019_1',
+    'M PolSc-GP_2019_2',
+    'M Rel-Ed_2019_1',
+    'M SciEd_2019_1',
+    'M SocPsych_2019_1',
+    'MTChnFL-CPA_2021_0',
+    'MTChnFL_2019_1',
+    'MTSDev_2020_0',
+    'M AMF_2019_1',
+    'MA Anthropology_2019_1',
+    'MA BET-CPA_2021_0',
+];

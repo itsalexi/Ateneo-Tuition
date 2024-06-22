@@ -1,10 +1,8 @@
 'use client';
 
-import { Inter } from 'next/font/google';
-import './globals.css';
-import { Provider } from 'react-redux';
 import store from '@/redux/store';
-import Header from '@/components/Header';
+import { Provider } from 'react-redux';
+import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 

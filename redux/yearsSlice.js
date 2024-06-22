@@ -1,6 +1,7 @@
 const { createSlice } = require('@reduxjs/toolkit');
 
 const initialState = {
+    selectedCourse: {},
     fifthYear: false,
     tuitionIncrease: 0.06,
     tuitionPerUnit: 5221.3,
@@ -46,6 +47,9 @@ const yearsSlice = createSlice({
         },
         updateBasicFees: (state, action) => {
             state.basicFees = action.payload.value;
+        },
+        updateSelectedCourse: (state, action) => {
+            state.selectedCourse = action.payload.value;
         },
         updateMiscFees: (state, action) => {
             state.miscFees = action.payload.value;
@@ -106,6 +110,7 @@ export const {
     updateBasicFees,
     updateMiscFees,
     updateTuitionPerUnit,
+    updateSelectedCourse,
     updateTuitionIncrease,
 } = yearsSlice.actions;
 export default yearsSlice.reducer;

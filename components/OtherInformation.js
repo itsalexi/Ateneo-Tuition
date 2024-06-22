@@ -9,7 +9,7 @@ import { Checkbox, Input } from '@mui/joy';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-const OtherInformation = () => {
+const OtherInformation = ({ disableCheck }) => {
     const { fifthRow, basicFees, miscFees, tuitionIncrease, tuitionPerUnit } =
         useSelector((state) => state.years);
     const dispatch = useDispatch();
@@ -28,16 +28,20 @@ const OtherInformation = () => {
 
     return (
         <fieldset className="field otherfield">
-            <legend className="legend">Other Information</legend>
+            <legend className="legend">Cost Information</legend>
             <div className="other-info">
-                <div className="fifth-year-check">
-                    <label>Is there a fifth year for this course?</label>
-                    <Checkbox
-                        type="checkbox"
-                        onChange={onToggleFifthRow}
-                        checked={fifthRow}
-                    />
-                </div>
+                {disableCheck ? (
+                    ''
+                ) : (
+                    <div className="fifth-year-check">
+                        <label>Is there a fifth year for this course?</label>
+                        <Checkbox
+                            type="checkbox"
+                            onChange={onToggleFifthRow}
+                            checked={fifthRow}
+                        />
+                    </div>
+                )}
                 <label>Tuition Per Unit</label>
                 <Input
                     onChange={onTuitionPerUnitChange}
