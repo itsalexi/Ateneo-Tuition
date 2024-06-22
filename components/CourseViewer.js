@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Table from '@mui/joy/Table';
 import { stringifyNumber, peso } from '@/helpers/helpers';
+
 export const CourseViewer = ({ year, id }) => {
     const { tuitionIncrease, tuitionPerUnit } = useSelector(
         (state) => state.years
@@ -21,24 +22,34 @@ export const CourseViewer = ({ year, id }) => {
             <thead>
                 <tr>
                     <th>{stringifyNumber(id + 1)} Year</th>
-                    <th>Intersession</th>
-                    <th>First</th>
-                    <th>Second</th>
-                    <th>Total</th>
+                    <th>Units</th>
+                    <th>Semester Payment</th>
                 </tr>
             </thead>
             <tbody>
+                {data?.map((semester, index) => (
+                    <tr key={index}>
+                        <td>
+                            {index === 0
+                                ? 'Intersession'
+                                : index === 1
+                                ? 'First Semester'
+                                : 'Second Semester'}
+                        </td>
+                        <td>{semester}</td>
+                        <td>
+                            {peso.format(
+                                semester *
+                                    (tuitionPerUnit *
+                                        (1 + tuitionIncrease) ** id)
+                            )}
+                        </td>
+                    </tr>
+                ))}
+            </tbody>
+            <tfoot>
                 <tr>
-                    <td>
-                        Units (
-                        {peso.format(
-                            tuitionPerUnit * (1 + tuitionIncrease) ** id
-                        )}{' '}
-                        per)
-                    </td>
-                    {data?.map((semester, index) => (
-                        <td key={index + 1}>{semester}</td>
-                    ))}
+                    <td>Total</td>
                     <td>
                         {data?.reduce(
                             (total, current) =>
@@ -46,20 +57,6 @@ export const CourseViewer = ({ year, id }) => {
                             0
                         )}
                     </td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td>Payment / Semester</td>
-                    {data?.map((semester, index) => (
-                        <td key={index + 1}>
-                            {peso.format(
-                                semester *
-                                    (tuitionPerUnit *
-                                        (1 + tuitionIncrease) ** id)
-                            )}
-                        </td>
-                    ))}
                     <td>
                         {peso.format(
                             data?.reduce(
