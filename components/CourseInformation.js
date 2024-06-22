@@ -20,6 +20,12 @@ const CourseInformation = () => {
                 <label>Course Name</label>
                 <Input readOnly value={courseName}></Input>
             </fieldset>
+            <p className="disclaimer">
+                These values are only estimated and not the exact values that
+                you will see in your statement of account. This also does not
+                include the other fees such as: basic, laboratory, and
+                miscellaneous fees.
+            </p>
             <fieldset className="field">
                 <legend>Unit Information</legend>
                 {years?.map((year, index) => (
