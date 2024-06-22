@@ -1,24 +1,49 @@
 'use client';
 
-import styles from './page.module.css';
 import { useDispatch, useSelector } from 'react-redux';
-import { Year } from '@/components/Year';
-import { addYear } from '@/redux/yearsSlice';
+import { YearEditor } from '@/components/YearEditor';
+import { addYear, toggleFifthYear } from '@/redux/yearsSlice';
+import '@fontsource/inter';
+import { YearViewer } from '@/components/YearViewer';
+import OtherInformation from '@/components/OtherInformation';
+import TuitionForecast from '@/components/TuitionForecast';
+import Header from '@/components/Header';
+import Credits from '@/components/Credits';
 
 export default function Home() {
     const years = useSelector((state) => state.years.years);
-    const dispatch = useDispatch();
-
-    const handleAddYear = () => {
-        dispatch(addYear({ id: years.length }));
-    };
 
     return (
-        <main className={styles.main}>
-            <button onClick={handleAddYear}>Add Year +</button>
-            {years.map((year) => (
-                <Year key={year.id} id={year.id} />
-            ))}
-        </main>
+        <>
+            <Header></Header>
+
+            <main className="main">
+                <div className="main-row">
+                    <div className="main-left">
+                        <div className="main-field">
+                            <OtherInformation />
+                        </div>
+                        <div className="main-field">
+                            <TuitionForecast />
+                        </div>
+                        <div className="main-field">
+                            <Credits />
+                        </div>
+                    </div>
+                    <div className="main-right">
+                        {years.map((year) => (
+                            <div className="year-row" key={year.id}>
+                                <div className="editor">
+                                    <YearEditor id={year.id} />
+                                </div>
+                                <div className="viewer">
+                                    <YearViewer id={year.id} />
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </main>
+        </>
     );
 }

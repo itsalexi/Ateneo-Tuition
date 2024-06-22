@@ -1,5 +1,152 @@
-.year {
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    font-family: Inter;
+    padding: 0;
+    margin: 0;
+    color: #001196;
+}
+
+.field {
     display: flex;
     flex-direction: column;
     padding: 1em;
+    gap: 0.5em;
+    border-color: #f6f7f9;
+    border-radius: 0.3em;
+}
+
+.intersession-check,
+.fifth-year-check {
+    display: flex;
+    gap: 0.5em;
+}
+
+.other-info {
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
+}
+
+.editor {
+    flex: 1;
+}
+
+.viewer {
+    flex: 1;
+}
+
+.main {
+    margin: 1em;
+}
+
+.misc {
+    flex: 0.5;
+}
+
+.vertical-divider {
+    flex: 0.001;
+    background-color: #d1d1d1;
+    margin: 0 10px;
+}
+
+.year-row {
+    display: flex;
+    height: 100%;
+    align-items: stretch;
+    gap: 1em;
+}
+
+.disclaimer {
+    font-size: 0.5em;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.year-table {
+    border-radius: 0.5em;
+}
+
+.main-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+}
+.main-left {
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+    gap: 1em;
+}
+.main-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.main-right {
+    flex: 1;
+}
+
+@media (max-width: 1366px) {
+    .main-row {
+        flex-direction: column;
+    }
+
+    .main-left {
+        flex-direction: row;
+    }
+
+    .main-left,
+    .main-right {
+        padding: 1rem;
+    }
+
+    .main-right {
+        gap: 1em;
+    }
+
+    .main-left {
+        gap: 1em;
+    }
+
+    .main-field {
+        flex: 1;
+        height: 100%;
+    }
+
+    .year-row {
+        flex-direction: column;
+    }
+    .disclaimer {
+        font-size: 1em;
+    }
+    html {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 810px) {
+    .main-left {
+        flex-direction: column;
+    }
+    .main-row {
+        gap: 0;
+    }
+    html {
+        font-size: 80%;
+    }
+}
+
+header {
+    display: flex;
+    background-color: #001196;
+    color: white;
+    padding: 0.5em 0;
+    justify-content: center;
+    font-family: 'Cardo', serif;
+    font-size: 1.5em;
 }
