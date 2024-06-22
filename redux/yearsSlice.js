@@ -58,9 +58,7 @@ const yearsSlice = createSlice({
             state.tuitionPerUnit = action.payload.value;
         },
         updateTuitionIncrease: (state, action) => {
-            // value received will be between 1 to 100, convert to percentage
-            const newValue = action.payload.value / 100;
-            state.tuitionIncrease = newValue;
+            state.tuitionIncrease = action.payload.value;
         },
 
         updateFirstSemester: (state, action) => {

@@ -42,7 +42,7 @@ export const YearViewer = ({ id }) => {
                             {peso.format(
                                 semester *
                                     (tuitionPerUnit *
-                                        (1 + tuitionIncrease) ** id)
+                                        (1 + (tuitionIncrease / 100)) ** id)
                             )}
                         </td>
                     </tr>
@@ -65,7 +65,7 @@ export const YearViewer = ({ id }) => {
                                     parseInt(total) + parseInt(current),
                                 0
                             ) *
-                                (tuitionPerUnit * (1 + tuitionIncrease) ** id)
+                                (tuitionPerUnit * (1 + (tuitionIncrease / 100)) ** id)
                         )}
                     </td>
                 </tr>

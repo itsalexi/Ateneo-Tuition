@@ -51,7 +51,7 @@ const OtherInformation = ({ disableCheck }) => {
                 <label>Tuition Increase Per Year (%)</label>
                 <Input
                     onChange={onTuitionIncreaseChange}
-                    value={tuitionIncrease * 100}
+                    value={tuitionIncrease}
                     type="number"
                 />
                 <p className="disclaimer">

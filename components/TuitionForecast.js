@@ -13,7 +13,7 @@ const TuitionForecast = () => {
         let currentYear = new Date().getFullYear();
         const year = currentYear + i - 1;
         tuitionForecast[year] =
-            tuitionPerUnit * (1 + tuitionIncrease) ** (i - 1);
+            tuitionPerUnit * (1 + (tuitionIncrease / 100)) ** (i - 1);
     }
 
     console.log(tuitionForecast);
