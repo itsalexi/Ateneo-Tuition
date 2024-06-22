@@ -3,7 +3,7 @@ const { createSlice } = require('@reduxjs/toolkit');
 const initialState = {
     selectedCourse: {},
     fifthYear: false,
-    tuitionIncrease: 0.06,
+    tuitionIncrease: 6,
     tuitionPerUnit: 5221.3,
     years: [
         {
