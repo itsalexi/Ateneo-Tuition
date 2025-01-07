@@ -23,7 +23,6 @@ export default function Home() {
                     </div>
                     <div className="main-right">
                         <CourseInformation />
-
                     </div>
                 </div>
             </main>

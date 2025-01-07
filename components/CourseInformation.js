@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { CourseViewer } from './CourseViewer';
 
 const CourseInformation = () => {
-    const { selectedCourse } = useSelector((state) => state.years);
+    const { selectedCourse, currentYear } = useSelector((state) => state.years);
     const string = selectedCourse?.name;
     const years = selectedCourse?.years;
     let match = string?.match(/\((.*?)\)\s*(.*?)\s*\(/);
@@ -28,7 +28,7 @@ const CourseInformation = () => {
             </p>
             <fieldset className="field">
                 <legend>Unit Information</legend>
-                {years?.map((year, index) => (
+                {years?.slice(currentYear).map((year, index) => (
                     <div className="year-row" key={index}>
                         <div className="viewer">
                             <CourseViewer year={year} id={index} />
