@@ -1,0 +1,95 @@
+name: Update AISIS Curriculum Data
+on:
+  workflow_dispatch:
+jobs:
+  update-curriculum:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 python-dotenv
+
+      - name: Setup gitignore
+        run: |
+          echo "cookies.pkl" >> .gitignore
+          echo "curriculum_data/" >> .gitignore
+
+      - name: Create empty cookies file
+        run: |
+          python -c "import pickle; pickle.dump({}, open('cookies.pkl', 'wb'))"
+
+      - name: Check secrets
+        run: |
+          if [ -z "${{ secrets.AISIS_USERNAME }}" ]; then
+            echo "Error: AISIS_USERNAME secret is not set"
+            exit 1
+          fi
+          if [ -z "${{ secrets.AISIS_PASSWORD }}" ]; then
+            echo "Error: AISIS_PASSWORD secret is not set"
+            exit 1
+          fi
+          echo "Secrets are properly configured"
+
+      - name: Create .env file
+        run: |
+          echo "AISIS_USERNAME=${{ secrets.AISIS_USERNAME }}" > .env
+          echo "AISIS_PASSWORD=${{ secrets.AISIS_PASSWORD }}" >> .env
+
+      - name: Run curriculum scraper
+        id: scraper
+        run: |
+          python curriculum_scraper.py
+          if [ -f "curriculum_data/curricula.js" ] && [ -f "curriculum_data/course_codes.js" ]; then
+            echo "scraper_success=true" >> $GITHUB_OUTPUT
+          else
+            echo "scraper_success=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+      - name: Update data files
+        if: steps.scraper.outputs.scraper_success == 'true'
+        run: |
+          mkdir -p data
+          cp curriculum_data/curricula.js data/data.js
+          cp curriculum_data/course_codes.js data/course_codes.js
+
+      - name: Clean up
+        run: |
+          rm -f cookies.pkl
+          rm -rf curriculum_data/
+          rm -f .env
+
+      - name: Create Pull Request
+        if: steps.scraper.outputs.scraper_success == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          commit-message: 'Update curriculum data'
+          title: '🔄 Update Curriculum Data'
+          body: |
+            Automated curriculum data update from AISIS
+
+            Changes:
+            - Updated curriculum data in data/data.js
+            - Updated course codes in data/course_codes.js
+
+            Please review the changes before merging.
+          branch: update-curriculum
+          branch-suffix: timestamp
+          delete-branch: true
+          base: main
+          add-paths: |
+            data/data.js
+            data/course_codes.js
