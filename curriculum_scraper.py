@@ -233,7 +233,7 @@ def main():
 
     # Fetch first 5 curricula
     all_curricula = {}
-    for degree in degree_codes[:5]:
+    for degree in degree_codes:
         try:
             logging.info(f"Fetching curriculum for {degree['code']}")
             curriculum = get_curriculum(session, degree['code'], degree['name'])
