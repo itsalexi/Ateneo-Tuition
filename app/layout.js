@@ -9,6 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+            <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2757a908e68149b5975175c340810940"}'></script>
             <body className={inter.className}>{children}</body>
         </html>
     );
