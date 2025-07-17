@@ -55,7 +55,7 @@ const OtherInformation = ({ disableCheck }) => {
                     type="number"
                 />
                 <p className="disclaimer">
-                    Default values are updated as of June 2024
+                    Default values are updated as of July 2025
                 </p>
             </div>
         </fieldset>
