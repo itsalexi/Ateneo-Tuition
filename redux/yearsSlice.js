@@ -5,7 +5,7 @@ const initialState = {
   selectedCourse: {},
   fifthYear: false,
   tuitionIncrease: 6,
-  tuitionPerUnit: 5221.3,
+  tuitionPerUnit: 5534.5,
   years: [
     {
       id: 0,
